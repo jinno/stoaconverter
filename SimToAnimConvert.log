@@ -1,0 +1,1480 @@
+Java Plug-in 1.6.0_11
+使用中の JRE のバージョン 1.6.0_11 Java HotSpot(TM) Client VM
+ユーザのホームディレクトリ = C:\Documents and Settings\Administrator
+----------------------------------------------------
+c:   コンソールウィンドウをクリア
+f:   ファイナライズキューのオブジェクトをファイナライズ
+g:   ガベージコレクト
+h:   このヘルプメッセージを表示
+l:   クラスローダリストをダンプ
+m:   メモリ使用率を表示
+o:   トリガログ
+q:   コンソールを非表示
+r:   ポリシー設定を再ロード
+s:   システムプロパティと配備プロパティをダンプ
+t:   スレッドリストをダンプ
+v:   スレッドスタックをダンプ
+x:   クラスローダキャッシュをクリア
+0-5: トレースレベルを <n> に設定
+----------------------------------------------------
+
+
+・シミュレーション時間
+データ取得成功： 300.000000
+・建物数
+データ取得成功：    2
+・エレベータ運行制御方式
+データ取得成功：
+ ＥＬＶ運行制御方式： [B   1] ...    1
+ ＥＬＶ運行制御方式： [B   2] ...    2
+・エレベータ数
+データ取得成功：
+ ＥＬＶ数： [B   1] ...    1
+ ＥＬＶ数： [B   2] ...    1
+・建物最高階床数
+データ取得成功：   10
+・交通パターン
+データ取得成功：    6
+・上り集中率
+データ取得成功：    6.00
+・下り集中率
+データ取得成功：    6.00
+・乗降割合
+データ取得成功：    1.00
+・居住者数
+データ取得成功：
+ 居住者数： [   1] ... 25.000000
+ 居住者数： [   2] ... 25.000000
+ 居住者数： [   3] ... 25.000000
+ 居住者数： [   4] ... 25.000000
+ 居住者数： [   5] ... 25.000000
+ 居住者数： [   6] ... 25.000000
+ 居住者数： [   7] ... 25.000000
+ 居住者数： [   8] ... 25.000000
+ 居住者数： [   9] ... 25.000000
+ 居住者数： [  10] ... 25.000000
+ 居住者総数:250.0
+・各階高
+データ取得成功：
+ 階高： [   1] ... 3500.000000
+ 階高： [   2] ... 3500.000000
+ 階高： [   3] ... 3500.000000
+ 階高： [   4] ... 3500.000000
+ 階高： [   5] ... 3500.000000
+ 階高： [   6] ... 3500.000000
+ 階高： [   7] ... 3500.000000
+ 階高： [   8] ... 3500.000000
+ 階高： [   9] ... 3500.000000
+ 階高： [  10] ... 3500.000000
+・かご数
+データ取得成功：
+ かご数： [B   1,E   1] ...    1
+ かご数： [B   2,E   1] ...    1
+・かごデータ(分速)
+ 分速： [B   1,E   1,C   1] ... 105.00
+ 分速： [B   2,E   1,C   1] ... 105.00
+データ取得成功：
+・かごデータ(加減速距離)
+ 加減速距離： [B   1,E   1,C   1] ...   5.10
+ 加減速距離： [B   2,E   1,C   1] ...   5.10
+データ取得成功：
+・かごデータ(加減速時間)
+ 加減速時間： [B   1,E   1,C   1] ...   6.80
+ 加減速時間： [B   2,E   1,C   1] ...   6.80
+データ取得成功：
+・かごデータ(扉開時間)
+ 扉開時間： [B   1,E   1,C   1] ...   2.10
+ 扉開時間： [B   2,E   1,C   1] ...   2.10
+データ取得成功：
+・かごデータ(扉閉時間)
+ 扉閉時間： [B   1,E   1,C   1] ...   3.70
+ 扉閉時間： [B   2,E   1,C   1] ...   3.70
+データ取得成功：
+・かごデータ(デッドタイム)
+ デッドタイム： [B   1,E   1,C   1] ...   0.00
+ デッドタイム： [B   2,E   1,C   1] ...   0.00
+データ取得成功：
+・かごデータ(乗車定員)
+ 乗車定員： [B   1,E   1,C   1] ...  13.00
+ 乗車定員： [B   2,E   1,C   1] ...  13.00
+データ取得成功：
+・かごデータ(かご間口)
+ かご間口： [B   1,E   1,C   1] ...   1.60
+ かご間口： [B   2,E   1,C   1] ...   1.60
+データ取得成功：
+・かごデータ(かご奥行)
+ かご奥行： [B   1,E   1,C   1] ...   1.35
+ かご奥行： [B   2,E   1,C   1] ...   1.35
+データ取得成功：
+・かごデータ(昇降路間口)
+ 昇降路間口： [B   1,E   1,C   1] ...   2.15
+ 昇降路間口： [B   2,E   1,C   1] ...   2.15
+データ取得成功：
+・かごデータ(昇降路奥行)
+ 昇降路奥行： [B   1,E   1,C   1] ...   2.15
+ 昇降路奥行： [B   2,E   1,C   1] ...   2.15
+データ取得成功：
+・かごデータ(階床数設定)
+ 階床数： [B   1,E   1,C   1] ...     10
+ 階床数： [B   2,E   1,C   1] ...     10
+データ設定成功：
+・かごデータ(階床数設定)
+データ設定成功：
+・かごデータ(計算値設定)
+データ設定成功：
+EleLife InitData Start
+==< 2009.01.06 Ver.0.27.005 H.Murai 01/06 デモサイト修正リリース版(不具合改修２) >==
+LimitTime: 300.00
+
+ PID--- CID- ToF TfF CLT---- CIT---- ToT---- TfT---- CWI---- TrT---- SvT---- SvS-----
+      1    0   5   1     2.1     2.1     0.0     0.0    -2.1     0.0    -2.1 01.SVSP
+      2    0   8   1     2.8     0.8     0.0     0.0    -2.8     0.0    -2.8 01.SVSP
+      3    0   1   6     3.5     0.6     0.0     0.0    -3.5     0.0    -3.5 01.SVSP
+      4    0   1   6     4.3     0.8     0.0     0.0    -4.3     0.0    -4.3 01.SVSP
+      5    0   6   1     9.6     5.3     0.0     0.0    -9.6     0.0    -9.6 01.SVSP
+      6    0   1   6    13.3     3.7     0.0     0.0   -13.3     0.0   -13.3 01.SVSP
+      7    0   8   1    14.7     1.4     0.0     0.0   -14.7     0.0   -14.7 01.SVSP
+      8    0   1   3    20.1     5.4     0.0     0.0   -20.1     0.0   -20.1 01.SVSP
+      9    0   1   3    28.2     8.1     0.0     0.0   -28.2     0.0   -28.2 01.SVSP
+     10    0   7   1    35.8     7.7     0.0     0.0   -35.8     0.0   -35.8 01.SVSP
+     11    0   1   9    41.7     5.9     0.0     0.0   -41.7     0.0   -41.7 01.SVSP
+     12    0   1   6    44.5     2.7     0.0     0.0   -44.5     0.0   -44.5 01.SVSP
+     13    0   7   1    47.4     2.9     0.0     0.0   -47.4     0.0   -47.4 01.SVSP
+     14    0   1   3    60.4    12.9     0.0     0.0   -60.4     0.0   -60.4 01.SVSP
+     15    0   1  10    67.2     6.8     0.0     0.0   -67.2     0.0   -67.2 01.SVSP
+     16    0   1   4    77.6    10.4     0.0     0.0   -77.6     0.0   -77.6 01.SVSP
+     17    0   1   5    97.2    19.6     0.0     0.0   -97.2     0.0   -97.2 01.SVSP
+     18    0   6   1   105.0     7.8     0.0     0.0  -105.0     0.0  -105.0 01.SVSP
+     19    0   9   1   129.6    24.6     0.0     0.0  -129.6     0.0  -129.6 01.SVSP
+     20    0   5   1   146.5    16.9     0.0     0.0  -146.5     0.0  -146.5 01.SVSP
+     21    0   2   1   174.8    28.3     0.0     0.0  -174.8     0.0  -174.8 01.SVSP
+     22    0   1   3   177.0     2.3     0.0     0.0  -177.0     0.0  -177.0 01.SVSP
+     23    0   9   1   196.3    19.3     0.0     0.0  -196.3     0.0  -196.3 01.SVSP
+     24    0   1  10   204.6     8.2     0.0     0.0  -204.6     0.0  -204.6 01.SVSP
+     25    0   1   2   207.5     2.9     0.0     0.0  -207.5     0.0  -207.5 01.SVSP
+     26    0   4   1   224.5    17.0     0.0     0.0  -224.5     0.0  -224.5 01.SVSP
+     27    0   1   9   226.6     2.1     0.0     0.0  -226.6     0.0  -226.6 01.SVSP
+     28    0   5   1   228.1     1.5     0.0     0.0  -228.1     0.0  -228.1 01.SVSP
+     29    0   1   5   234.0     5.9     0.0     0.0  -234.0     0.0  -234.0 01.SVSP
+     30    0   7   1   242.7     8.7     0.0     0.0  -242.7     0.0  -242.7 01.SVSP
+     31    0  10   1   248.4     5.8     0.0     0.0  -248.4     0.0  -248.4 01.SVSP
+     32    0   1   7   253.5     5.0     0.0     0.0  -253.5     0.0  -253.5 01.SVSP
+     33    0   1   8   260.4     7.0     0.0     0.0  -260.4     0.0  -260.4 01.SVSP
+     34    0   1   5   262.3     1.8     0.0     0.0  -262.3     0.0  -262.3 01.SVSP
+     35    0   1   5   271.7     9.4     0.0     0.0  -271.7     0.0  -271.7 01.SVSP
+     36    0   1   6   277.3     5.6     0.0     0.0  -277.3     0.0  -277.3 01.SVSP
+ PID--- CID- ToF TfF CLT---- CIT---- ToT---- TfT---- CWI---- TrT---- SvT---- SvS-----
+----< Dump Status Data >----
+ChartTable[  1][] = 
+	 0.00000
+	 0.11111
+	 0.11111
+	 0.11111
+	 0.11111
+	 0.11111
+	 0.11111
+	 0.11111
+	 0.11111
+	 0.11111
+
+ChartTable[  2][] = 
+	 0.11111
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+
+ChartTable[  3][] = 
+	 0.11111
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+
+ChartTable[  4][] = 
+	 0.11111
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+
+ChartTable[  5][] = 
+	 0.11111
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+
+ChartTable[  6][] = 
+	 0.11111
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+
+ChartTable[  7][] = 
+	 0.11111
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+
+ChartTable[  8][] = 
+	 0.11111
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+
+ChartTable[  9][] = 
+	 0.11111
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+
+ChartTable[ 10][] = 
+	 0.11111
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+
+----< End Data >------------
+----< Dump AAR Chart Data >----
+ChartTable[  1][] = 
+	 0.00000
+	 0.00556
+	 0.00556
+	 0.00556
+	 0.00556
+	 0.00556
+	 0.00556
+	 0.00556
+	 0.00556
+	 0.00556
+
+ChartTable[  2][] = 
+	 0.00556
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+
+ChartTable[  3][] = 
+	 0.00556
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+
+ChartTable[  4][] = 
+	 0.00556
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+
+ChartTable[  5][] = 
+	 0.00556
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+
+ChartTable[  6][] = 
+	 0.00556
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+
+ChartTable[  7][] = 
+	 0.00556
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+
+ChartTable[  8][] = 
+	 0.00556
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+
+ChartTable[  9][] = 
+	 0.00556
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+
+ChartTable[ 10][] = 
+	 0.00556
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+	 0.00000
+
+----< End Data >---------------
+----< AAR Dump Status Data >----
+AAR_LLu =    0.05000
+
+AAR_LLd =    0.05000
+
+AAR_Q   =  250.00000
+
+AAR_Bu  =    6.00000
+
+AAR_Bd  =    6.00000
+
+----< End Data >----------------
+ PID--- CID- ToF TfF CLT---- CIT---- ToT---- TfT---- CWI---- TrT---- SvT---- SvS-----
+      1    0   5   1     2.1     2.1     0.0     0.0    -2.1     0.0    -2.1 01.SVSP
+      2    0   8   1     2.8     0.8     0.0     0.0    -2.8     0.0    -2.8 01.SVSP
+      3    0   1   6     3.5     0.6     0.0     0.0    -3.5     0.0    -3.5 01.SVSP
+      4    0   1   6     4.3     0.8     0.0     0.0    -4.3     0.0    -4.3 01.SVSP
+      5    0   6   1     9.6     5.3     0.0     0.0    -9.6     0.0    -9.6 01.SVSP
+      6    0   1   6    13.3     3.7     0.0     0.0   -13.3     0.0   -13.3 01.SVSP
+      7    0   8   1    14.7     1.4     0.0     0.0   -14.7     0.0   -14.7 01.SVSP
+      8    0   1   3    20.1     5.4     0.0     0.0   -20.1     0.0   -20.1 01.SVSP
+      9    0   1   3    28.2     8.1     0.0     0.0   -28.2     0.0   -28.2 01.SVSP
+     10    0   7   1    35.8     7.7     0.0     0.0   -35.8     0.0   -35.8 01.SVSP
+     11    0   1   9    41.7     5.9     0.0     0.0   -41.7     0.0   -41.7 01.SVSP
+     12    0   1   6    44.5     2.7     0.0     0.0   -44.5     0.0   -44.5 01.SVSP
+     13    0   7   1    47.4     2.9     0.0     0.0   -47.4     0.0   -47.4 01.SVSP
+     14    0   1   3    60.4    12.9     0.0     0.0   -60.4     0.0   -60.4 01.SVSP
+     15    0   1  10    67.2     6.8     0.0     0.0   -67.2     0.0   -67.2 01.SVSP
+     16    0   1   4    77.6    10.4     0.0     0.0   -77.6     0.0   -77.6 01.SVSP
+     17    0   1   5    97.2    19.6     0.0     0.0   -97.2     0.0   -97.2 01.SVSP
+     18    0   6   1   105.0     7.8     0.0     0.0  -105.0     0.0  -105.0 01.SVSP
+     19    0   9   1   129.6    24.6     0.0     0.0  -129.6     0.0  -129.6 01.SVSP
+     20    0   5   1   146.5    16.9     0.0     0.0  -146.5     0.0  -146.5 01.SVSP
+     21    0   2   1   174.8    28.3     0.0     0.0  -174.8     0.0  -174.8 01.SVSP
+     22    0   1   3   177.0     2.3     0.0     0.0  -177.0     0.0  -177.0 01.SVSP
+     23    0   9   1   196.3    19.3     0.0     0.0  -196.3     0.0  -196.3 01.SVSP
+     24    0   1  10   204.6     8.2     0.0     0.0  -204.6     0.0  -204.6 01.SVSP
+     25    0   1   2   207.5     2.9     0.0     0.0  -207.5     0.0  -207.5 01.SVSP
+     26    0   4   1   224.5    17.0     0.0     0.0  -224.5     0.0  -224.5 01.SVSP
+     27    0   1   9   226.6     2.1     0.0     0.0  -226.6     0.0  -226.6 01.SVSP
+     28    0   5   1   228.1     1.5     0.0     0.0  -228.1     0.0  -228.1 01.SVSP
+     29    0   1   5   234.0     5.9     0.0     0.0  -234.0     0.0  -234.0 01.SVSP
+     30    0   7   1   242.7     8.7     0.0     0.0  -242.7     0.0  -242.7 01.SVSP
+     31    0  10   1   248.4     5.8     0.0     0.0  -248.4     0.0  -248.4 01.SVSP
+     32    0   1   7   253.5     5.0     0.0     0.0  -253.5     0.0  -253.5 01.SVSP
+     33    0   1   8   260.4     7.0     0.0     0.0  -260.4     0.0  -260.4 01.SVSP
+     34    0   1   5   262.3     1.8     0.0     0.0  -262.3     0.0  -262.3 01.SVSP
+     35    0   1   5   271.7     9.4     0.0     0.0  -271.7     0.0  -271.7 01.SVSP
+     36    0   1   6   277.3     5.6     0.0     0.0  -277.3     0.0  -277.3 01.SVSP
+ PID--- CID- ToF TfF CLT---- CIT---- ToT---- TfT---- CWI---- TrT---- SvT---- SvS-----
+ PID--- CID- ToF TfF CLT---- CIT---- ToT---- TfT---- CWI---- TrT---- SvT---- SvS-----
+      1    0   5   1     2.1     2.1     0.0     0.0    -2.1     0.0    -2.1 01.SVSP
+      2    0   8   1     2.8     0.8     0.0     0.0    -2.8     0.0    -2.8 01.SVSP
+      3    0   1   6     3.5     0.6     0.0     0.0    -3.5     0.0    -3.5 01.SVSP
+      4    0   1   6     4.3     0.8     0.0     0.0    -4.3     0.0    -4.3 01.SVSP
+      5    0   6   1     9.6     5.3     0.0     0.0    -9.6     0.0    -9.6 01.SVSP
+      6    0   1   6    13.3     3.7     0.0     0.0   -13.3     0.0   -13.3 01.SVSP
+      7    0   8   1    14.7     1.4     0.0     0.0   -14.7     0.0   -14.7 01.SVSP
+      8    0   1   3    20.1     5.4     0.0     0.0   -20.1     0.0   -20.1 01.SVSP
+      9    0   1   3    28.2     8.1     0.0     0.0   -28.2     0.0   -28.2 01.SVSP
+     10    0   7   1    35.8     7.7     0.0     0.0   -35.8     0.0   -35.8 01.SVSP
+     11    0   1   9    41.7     5.9     0.0     0.0   -41.7     0.0   -41.7 01.SVSP
+     12    0   1   6    44.5     2.7     0.0     0.0   -44.5     0.0   -44.5 01.SVSP
+     13    0   7   1    47.4     2.9     0.0     0.0   -47.4     0.0   -47.4 01.SVSP
+     14    0   1   3    60.4    12.9     0.0     0.0   -60.4     0.0   -60.4 01.SVSP
+     15    0   1  10    67.2     6.8     0.0     0.0   -67.2     0.0   -67.2 01.SVSP
+     16    0   1   4    77.6    10.4     0.0     0.0   -77.6     0.0   -77.6 01.SVSP
+     17    0   1   5    97.2    19.6     0.0     0.0   -97.2     0.0   -97.2 01.SVSP
+     18    0   6   1   105.0     7.8     0.0     0.0  -105.0     0.0  -105.0 01.SVSP
+     19    0   9   1   129.6    24.6     0.0     0.0  -129.6     0.0  -129.6 01.SVSP
+     20    0   5   1   146.5    16.9     0.0     0.0  -146.5     0.0  -146.5 01.SVSP
+     21    0   2   1   174.8    28.3     0.0     0.0  -174.8     0.0  -174.8 01.SVSP
+     22    0   1   3   177.0     2.3     0.0     0.0  -177.0     0.0  -177.0 01.SVSP
+     23    0   9   1   196.3    19.3     0.0     0.0  -196.3     0.0  -196.3 01.SVSP
+     24    0   1  10   204.6     8.2     0.0     0.0  -204.6     0.0  -204.6 01.SVSP
+     25    0   1   2   207.5     2.9     0.0     0.0  -207.5     0.0  -207.5 01.SVSP
+     26    0   4   1   224.5    17.0     0.0     0.0  -224.5     0.0  -224.5 01.SVSP
+     27    0   1   9   226.6     2.1     0.0     0.0  -226.6     0.0  -226.6 01.SVSP
+     28    0   5   1   228.1     1.5     0.0     0.0  -228.1     0.0  -228.1 01.SVSP
+     29    0   1   5   234.0     5.9     0.0     0.0  -234.0     0.0  -234.0 01.SVSP
+     30    0   7   1   242.7     8.7     0.0     0.0  -242.7     0.0  -242.7 01.SVSP
+     31    0  10   1   248.4     5.8     0.0     0.0  -248.4     0.0  -248.4 01.SVSP
+     32    0   1   7   253.5     5.0     0.0     0.0  -253.5     0.0  -253.5 01.SVSP
+     33    0   1   8   260.4     7.0     0.0     0.0  -260.4     0.0  -260.4 01.SVSP
+     34    0   1   5   262.3     1.8     0.0     0.0  -262.3     0.0  -262.3 01.SVSP
+     35    0   1   5   271.7     9.4     0.0     0.0  -271.7     0.0  -271.7 01.SVSP
+     36    0   1   6   277.3     5.6     0.0     0.0  -277.3     0.0  -277.3 01.SVSP
+ PID--- CID- ToF TfF CLT---- CIT---- ToT---- TfT---- CWI---- TrT---- SvT---- SvS-----
+EleLife InitData END
+Thread Started !
+Start Local Time 0.000000
+Final Local Time 300.000000
+ NowState :   Stat: 01.RCWB, NowState :   Stat: 02.RCWM, itv      : 0.000000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=LU, Clt=0.00000e+00, Hc=   0
+ NowState :   Stat: 02.RCWM, NowState :   Stat: 03.RCWC, itv      : 2.077892	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=LU, Clt=2.07789e+00, Hc=   0
+ NowState :   Stat: 03.RCWC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=LU, Clt=2.07789e+00, Hc=   0
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   5, Dir=LU, Clt=2.07789e+00, Hc=   0
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.700000	 Cycle=   0	Pos=   1, hw=6.37500e-01, Dep=   1, Arr=   5, Dir=LU, Clt=3.77789e+00, Hc=   0
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.700000	 Cycle=   0	Pos=   1, hw=2.55000e+00, Dep=   1, Arr=   5, Dir=LU, Clt=5.47789e+00, Hc=   0
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 09.RCOB, itv      : 0.000000	 Cycle=   0	Pos=   1, hw=2.55000e+00, Dep=   1, Arr=   5, Dir=LU, Clt=5.47789e+00, Hc=   0
+ NowState :   Stat: 09.RCOB, NowState :   Stat: 10.RCOM, itv      : 2.542857	 Cycle=   0	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   5, Dir=LU, Clt=8.02075e+00, Hc=   0
+ NowState :   Stat: 10.RCOM, NowState :   Stat: 05.RTSR, itv      : 2.542857	 Cycle=   0	Pos=   4, hw=1.14500e+01, Dep=   1, Arr=   5, Dir=LU, Clt=1.05636e+01, Hc=   0
+ NowState :   Stat: 05.RTSR, NowState :   Stat: 11.RCOC, itv      : 0.000000	 Cycle=   0	Pos=   4, hw=1.14500e+01, Dep=   1, Arr=   5, Dir=LU, Clt=1.05636e+01, Hc=   0
+ NowState :   Stat: 11.RCOC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   0	Pos=   4, hw=1.14500e+01, Dep=   1, Arr=   5, Dir=LU, Clt=1.05636e+01, Hc=   0
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   0	Pos=   4, hw=1.33625e+01, Dep=   1, Arr=   5, Dir=LU, Clt=1.05636e+01, Hc=   0
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.400000	 Cycle=   0	Pos=   5, hw=1.40000e+01, Dep=   1, Arr=   5, Dir=LU, Clt=1.39636e+01, Hc=   0
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   0	Pos=   5, hw=1.40000e+01, Dep=   1, Arr=   5, Dir=LU, Clt=1.39636e+01, Hc=   0
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   0	Pos=   5, hw=1.40000e+01, Dep=   1, Arr=   5, Dir=LU, Clt=1.39636e+01, Hc=   0
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   0	Pos=   5, hw=1.40000e+01, Dep=   1, Arr=   5, Dir=LU, Clt=1.39636e+01, Hc=   0
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   0	Pos=   5, hw=1.40000e+01, Dep=   1, Arr=   5, Dir=LU, Clt=1.50136e+01, Hc=   0
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   0	Pos=   5, hw=1.40000e+01, Dep=   1, Arr=   5, Dir=LU, Clt=1.60636e+01, Hc=   0
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   0	Pos=   5, hw=1.40000e+01, Dep=   1, Arr=   5, Dir=LU, Clt=1.60636e+01, Hc=   0
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   0	Pos=   5, hw=1.40000e+01, Dep=   1, Arr=   5, Dir=LU, Clt=1.60636e+01, Hc=   0
+ NowState :   Stat: 24.TONP, NowState :   Stat: 25.TONB, itv      : 0.000000	 Cycle=   0	Pos=   5, hw=1.40000e+01, Dep=   1, Arr=   5, Dir=LU, Clt=1.60636e+01, Hc=   0
+ NowState :   Stat: 25.TONB, NowState :   Stat: 26.TONM, itv      : 0.000000	 Cycle=   0	Pos=   5, hw=1.40000e+01, Dep=   1, Arr=   5, Dir=LU, Clt=1.60636e+01, Hc=   0
+ NowState :   Stat: 26.TONM, NowState :   Stat: 27.TONC, itv      : 0.800000	 Cycle=   0	Pos=   5, hw=1.40000e+01, Dep=   1, Arr=   5, Dir=LU, Clt=1.68636e+01, Hc=   1
+ NowState :   Stat: 27.TONC, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   0	Pos=   5, hw=1.40000e+01, Dep=   1, Arr=   5, Dir=LU, Clt=1.68636e+01, Hc=   1
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   0	Pos=   5, hw=1.40000e+01, Dep=   1, Arr=   5, Dir=LU, Clt=1.87136e+01, Hc=   1
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   0	Pos=   5, hw=1.40000e+01, Dep=   1, Arr=   5, Dir=LU, Clt=2.05636e+01, Hc=   1
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   0	Pos=   5, hw=1.40000e+01, Dep=   1, Arr=   5, Dir=LU, Clt=2.05636e+01, Hc=   1
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   0	Pos=   5, hw=1.40000e+01, Dep=   1, Arr=   5, Dir=LU, Clt=2.05636e+01, Hc=   1
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   0	Pos=   5, hw=1.40000e+01, Dep=   5, Arr=   1, Dir=LD, Clt=2.05636e+01, Hc=   1
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.700000	 Cycle=   0	Pos=   4, hw=1.33625e+01, Dep=   5, Arr=   1, Dir=LD, Clt=2.22636e+01, Hc=   1
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.700000	 Cycle=   0	Pos=   4, hw=1.14500e+01, Dep=   5, Arr=   1, Dir=LD, Clt=2.39636e+01, Hc=   1
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 09.RCOB, itv      : 0.000000	 Cycle=   0	Pos=   4, hw=1.14500e+01, Dep=   5, Arr=   1, Dir=LD, Clt=2.39636e+01, Hc=   1
+ NowState :   Stat: 09.RCOB, NowState :   Stat: 10.RCOM, itv      : 2.542857	 Cycle=   0	Pos=   3, hw=7.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=2.65065e+01, Hc=   1
+ NowState :   Stat: 10.RCOM, NowState :   Stat: 05.RTSR, itv      : 2.542857	 Cycle=   0	Pos=   1, hw=2.55000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=2.90493e+01, Hc=   1
+ NowState :   Stat: 05.RTSR, NowState :   Stat: 11.RCOC, itv      : 0.000000	 Cycle=   0	Pos=   1, hw=2.55000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=2.90493e+01, Hc=   1
+ NowState :   Stat: 11.RCOC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   0	Pos=   1, hw=2.55000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=2.90493e+01, Hc=   1
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   0	Pos=   1, hw=6.37500e-01, Dep=   5, Arr=   1, Dir=LD, Clt=2.90493e+01, Hc=   1
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.400000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=3.24493e+01, Hc=   1
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=3.24493e+01, Hc=   1
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=3.24493e+01, Hc=   1
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=3.24493e+01, Hc=   1
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=3.34993e+01, Hc=   1
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=3.45493e+01, Hc=   1
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=3.45493e+01, Hc=   1
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 21.TOFB, itv      : 0.000000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=3.45493e+01, Hc=   1
+ NowState :   Stat: 21.TOFB, NowState :   Stat: 22.TOFM, itv      : 0.000000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=3.45493e+01, Hc=   1
+ NowState :   Stat: 22.TOFM, NowState :   Stat: 23.TOFC, itv      : 0.800000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=3.53493e+01, Hc=   0
+ NowState :   Stat: 23.TOFC, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=3.53493e+01, Hc=   0
+ NowState :   Stat: 24.TONP, NowState :   Stat: 25.TONB, itv      : 0.000000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=3.53493e+01, Hc=   0
+ NowState :   Stat: 25.TONB, NowState :   Stat: 26.TONM, itv      : 1.600000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=3.69493e+01, Hc=   2
+ NowState :   Stat: 26.TONM, NowState :   Stat: 27.TONC, itv      : 2.400000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=3.93493e+01, Hc=   5
+ NowState :   Stat: 27.TONC, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=3.93493e+01, Hc=   5
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=4.11993e+01, Hc=   5
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=4.30493e+01, Hc=   5
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=4.30493e+01, Hc=   5
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=4.30493e+01, Hc=   5
+ NowState :   Stat: 04.RTSC,ASSIGN-23x: sib=1 pid=11 cid=1 olt=41.738295
+ NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=4.30493e+01, Hc=   5
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=4.30493e+01, Hc=   5
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=4.30493e+01, Hc=   5
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=4.40993e+01, Hc=   5
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=4.51493e+01, Hc=   5
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=4.51493e+01, Hc=   5
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=4.51493e+01, Hc=   5
+ NowState :   Stat: 24.TONP,ASSIGN-23x: sib=1 pid=12 cid=1 olt=44.485956
+ NowState :   Stat: 25.TONB, itv      : 0.000000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=4.51493e+01, Hc=   5
+ NowState :   Stat: 25.TONB, NowState :   Stat: 26.TONM, itv      : 0.800000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=4.59493e+01, Hc=   6
+ NowState :   Stat: 26.TONM, NowState :   Stat: 27.TONC, itv      : 0.800000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=4.67493e+01, Hc=   7
+ NowState :   Stat: 27.TONC, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=4.67493e+01, Hc=   7
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=4.85993e+01, Hc=   7
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=5.04493e+01, Hc=   7
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=5.04493e+01, Hc=   7
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=5.04493e+01, Hc=   7
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   0	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=5.04493e+01, Hc=   7
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.700000	 Cycle=   0	Pos=   1, hw=6.37500e-01, Dep=   1, Arr=   3, Dir=LU, Clt=5.21493e+01, Hc=   7
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.700000	 Cycle=   0	Pos=   1, hw=2.55000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=5.38493e+01, Hc=   7
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 09.RCOB, itv      : 0.000000	 Cycle=   0	Pos=   1, hw=2.55000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=5.38493e+01, Hc=   7
+ NowState :   Stat: 09.RCOB, NowState :   Stat: 10.RCOM, itv      : 0.542857	 Cycle=   0	Pos=   2, hw=3.50000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=5.43922e+01, Hc=   7
+ NowState :   Stat: 10.RCOM, NowState :   Stat: 05.RTSR, itv      : 0.542857	 Cycle=   0	Pos=   2, hw=4.45000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=5.49350e+01, Hc=   7
+ NowState :   Stat: 05.RTSR, NowState :   Stat: 11.RCOC, itv      : 0.000000	 Cycle=   0	Pos=   2, hw=4.45000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=5.49350e+01, Hc=   7
+ NowState :   Stat: 11.RCOC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   0	Pos=   2, hw=4.45000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=5.49350e+01, Hc=   7
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   0	Pos=   2, hw=6.36250e+00, Dep=   1, Arr=   3, Dir=LU, Clt=5.49350e+01, Hc=   7
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.400000	 Cycle=   0	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=5.83350e+01, Hc=   7
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   0	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=5.83350e+01, Hc=   7
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   0	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=5.83350e+01, Hc=   7
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   0	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=5.83350e+01, Hc=   7
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   0	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=5.93850e+01, Hc=   7
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   0	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=6.04350e+01, Hc=   7
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   0	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=6.04350e+01, Hc=   7
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 21.TOFB, itv      : 0.000000	 Cycle=   0	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=6.04350e+01, Hc=   7
+ NowState :   Stat: 21.TOFB, NowState :   Stat: 22.TOFM, itv      : 0.800000	 Cycle=   0	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=6.12350e+01, Hc=   6
+ NowState :   Stat: 22.TOFM, NowState :   Stat: 23.TOFC, itv      : 0.800000	 Cycle=   0	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=6.20350e+01, Hc=   5
+ NowState :   Stat: 23.TOFC, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   0	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=6.20350e+01, Hc=   5
+ NowState :   Stat: 24.TONP, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   0	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=6.20350e+01, Hc=   5
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   0	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=6.38850e+01, Hc=   5
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   0	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=6.57350e+01, Hc=   5
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   0	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=6.57350e+01, Hc=   5
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   0	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=6.57350e+01, Hc=   5
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   0	Pos=   3, hw=7.00000e+00, Dep=   3, Arr=   6, Dir=LU, Clt=6.57350e+01, Hc=   5
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.700000	 Cycle=   0	Pos=   3, hw=7.63750e+00, Dep=   3, Arr=   6, Dir=LU, Clt=6.74350e+01, Hc=   5
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.700000	 Cycle=   0	Pos=   3, hw=9.55000e+00, Dep=   3, Arr=   6, Dir=LU, Clt=6.91350e+01, Hc=   5
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 09.RCOB, itv      : 0.000000	 Cycle=   0	Pos=   3, hw=9.55000e+00, Dep=   3, Arr=   6, Dir=LU, Clt=6.91350e+01, Hc=   5
+ NowState :   Stat: 09.RCOB, NowState :   Stat: 10.RCOM, itv      : 1.542857	 Cycle=   0	Pos=   4, hw=1.22500e+01, Dep=   3, Arr=   6, Dir=LU, Clt=7.06779e+01, Hc=   5
+ NowState :   Stat: 10.RCOM, NowState :   Stat: 05.RTSR, itv      : 1.542857	 Cycle=   0	Pos=   5, hw=1.49500e+01, Dep=   3, Arr=   6, Dir=LU, Clt=7.22207e+01, Hc=   5
+ NowState :   Stat: 05.RTSR, NowState :   Stat: 11.RCOC, itv      : 0.000000	 Cycle=   0	Pos=   5, hw=1.49500e+01, Dep=   3, Arr=   6, Dir=LU, Clt=7.22207e+01, Hc=   5
+ NowState :   Stat: 11.RCOC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   0	Pos=   5, hw=1.49500e+01, Dep=   3, Arr=   6, Dir=LU, Clt=7.22207e+01, Hc=   5
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   0	Pos=   5, hw=1.68625e+01, Dep=   3, Arr=   6, Dir=LU, Clt=7.22207e+01, Hc=   5
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.400000	 Cycle=   0	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=7.56207e+01, Hc=   5
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=7.56207e+01, Hc=   5
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=7.56207e+01, Hc=   5
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=7.56207e+01, Hc=   5
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=7.66707e+01, Hc=   5
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=7.77207e+01, Hc=   5
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=7.77207e+01, Hc=   5
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 21.TOFB, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=7.77207e+01, Hc=   5
+ NowState :   Stat: 21.TOFB, NowState :   Stat: 22.TOFM, itv      : 1.600000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=7.93207e+01, Hc=   3
+ NowState :   Stat: 22.TOFM, NowState :   Stat: 23.TOFC, itv      : 1.600000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=8.09207e+01, Hc=   1
+ NowState :   Stat: 23.TOFC, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=8.09207e+01, Hc=   1
+ NowState :   Stat: 24.TONP, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=8.09207e+01, Hc=   1
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=8.27707e+01, Hc=   1
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=8.46207e+01, Hc=   1
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=8.46207e+01, Hc=   1
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=8.46207e+01, Hc=   1
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   6, Arr=   9, Dir=UU, Clt=8.46207e+01, Hc=   1
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.700000	 Cycle=   1	Pos=   6, hw=1.81375e+01, Dep=   6, Arr=   9, Dir=UU, Clt=8.63207e+01, Hc=   1
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.700000	 Cycle=   1	Pos=   6, hw=2.00500e+01, Dep=   6, Arr=   9, Dir=UU, Clt=8.80207e+01, Hc=   1
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 09.RCOB, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=2.00500e+01, Dep=   6, Arr=   9, Dir=UU, Clt=8.80207e+01, Hc=   1
+ NowState :   Stat: 09.RCOB, NowState :   Stat: 10.RCOM, itv      : 1.542857	 Cycle=   1	Pos=   7, hw=2.27500e+01, Dep=   6, Arr=   9, Dir=UU, Clt=8.95636e+01, Hc=   1
+ NowState :   Stat: 10.RCOM, NowState :   Stat: 05.RTSR, itv      : 1.542857	 Cycle=   1	Pos=   8, hw=2.54500e+01, Dep=   6, Arr=   9, Dir=UU, Clt=9.11065e+01, Hc=   1
+ NowState :   Stat: 05.RTSR, NowState :   Stat: 11.RCOC, itv      : 0.000000	 Cycle=   1	Pos=   8, hw=2.54500e+01, Dep=   6, Arr=   9, Dir=UU, Clt=9.11065e+01, Hc=   1
+ NowState :   Stat: 11.RCOC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   1	Pos=   8, hw=2.54500e+01, Dep=   6, Arr=   9, Dir=UU, Clt=9.11065e+01, Hc=   1
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   1	Pos=   8, hw=2.73625e+01, Dep=   6, Arr=   9, Dir=UU, Clt=9.11065e+01, Hc=   1
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.400000	 Cycle=   1	Pos=   9, hw=2.80000e+01, Dep=   6, Arr=   9, Dir=UU, Clt=9.45065e+01, Hc=   1
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   1	Pos=   9, hw=2.80000e+01, Dep=   6, Arr=   9, Dir=UU, Clt=9.45065e+01, Hc=   1
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   1	Pos=   9, hw=2.80000e+01, Dep=   6, Arr=   9, Dir=UU, Clt=9.45065e+01, Hc=   1
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   1	Pos=   9, hw=2.80000e+01, Dep=   6, Arr=   9, Dir=UU, Clt=9.45065e+01, Hc=   1
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   1	Pos=   9, hw=2.80000e+01, Dep=   6, Arr=   9, Dir=UU, Clt=9.55565e+01, Hc=   1
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   1	Pos=   9, hw=2.80000e+01, Dep=   6, Arr=   9, Dir=UU, Clt=9.66065e+01, Hc=   1
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   1	Pos=   9, hw=2.80000e+01, Dep=   6, Arr=   9, Dir=UU, Clt=9.66065e+01, Hc=   1
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 21.TOFB, itv      : 0.000000	 Cycle=   1	Pos=   9, hw=2.80000e+01, Dep=   6, Arr=   9, Dir=UU, Clt=9.66065e+01, Hc=   1
+ NowState :   Stat: 21.TOFB, NowState :   Stat: 22.TOFM, itv      : 0.000000	 Cycle=   1	Pos=   9, hw=2.80000e+01, Dep=   6, Arr=   9, Dir=UU, Clt=9.66065e+01, Hc=   1
+ NowState :   Stat: 22.TOFM, NowState :   Stat: 23.TOFC, itv      : 0.800000	 Cycle=   1	Pos=   9, hw=2.80000e+01, Dep=   6, Arr=   9, Dir=UU, Clt=9.74065e+01, Hc=   0
+ NowState :   Stat: 23.TOFC, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   1	Pos=   9, hw=2.80000e+01, Dep=   6, Arr=   9, Dir=UU, Clt=9.74065e+01, Hc=   0
+ NowState :   Stat: 24.TONP, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   1	Pos=   9, hw=2.80000e+01, Dep=   6, Arr=   9, Dir=UU, Clt=9.74065e+01, Hc=   0
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   1	Pos=   9, hw=2.80000e+01, Dep=   6, Arr=   9, Dir=UU, Clt=9.92565e+01, Hc=   0
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   1	Pos=   9, hw=2.80000e+01, Dep=   6, Arr=   9, Dir=UU, Clt=1.01106e+02, Hc=   0
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   1	Pos=   9, hw=2.80000e+01, Dep=   6, Arr=   9, Dir=UU, Clt=1.01106e+02, Hc=   0
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   1	Pos=   9, hw=2.80000e+01, Dep=   6, Arr=   9, Dir=UU, Clt=1.01106e+02, Hc=   0
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   1	Pos=   9, hw=2.80000e+01, Dep=   9, Arr=   8, Dir=UD, Clt=1.01106e+02, Hc=   0
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.692817	 Cycle=   1	Pos=   8, hw=2.75625e+01, Dep=   9, Arr=   8, Dir=UD, Clt=1.02799e+02, Hc=   0
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.692817	 Cycle=   1	Pos=   8, hw=2.62500e+01, Dep=   9, Arr=   8, Dir=UD, Clt=1.04492e+02, Hc=   0
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   1	Pos=   8, hw=2.62500e+01, Dep=   9, Arr=   8, Dir=UD, Clt=1.04492e+02, Hc=   0
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   1	Pos=   8, hw=2.49375e+01, Dep=   9, Arr=   8, Dir=UD, Clt=1.04492e+02, Hc=   0
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.385633	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   9, Arr=   8, Dir=UD, Clt=1.07878e+02, Hc=   0
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   9, Arr=   8, Dir=UD, Clt=1.07878e+02, Hc=   0
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   9, Arr=   8, Dir=UD, Clt=1.07878e+02, Hc=   0
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   9, Arr=   8, Dir=UD, Clt=1.07878e+02, Hc=   0
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   9, Arr=   8, Dir=UD, Clt=1.08928e+02, Hc=   0
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   9, Arr=   8, Dir=UD, Clt=1.09978e+02, Hc=   0
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   9, Arr=   8, Dir=UD, Clt=1.09978e+02, Hc=   0
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   9, Arr=   8, Dir=UD, Clt=1.09978e+02, Hc=   0
+ NowState :   Stat: 24.TONP, NowState :   Stat: 25.TONB, itv      : 0.000000	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   9, Arr=   8, Dir=UD, Clt=1.09978e+02, Hc=   0
+ NowState :   Stat: 25.TONB, NowState :   Stat: 26.TONM, itv      : 0.800000	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   9, Arr=   8, Dir=UD, Clt=1.10778e+02, Hc=   1
+ NowState :   Stat: 26.TONM, NowState :   Stat: 27.TONC, itv      : 0.800000	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   9, Arr=   8, Dir=UD, Clt=1.11578e+02, Hc=   2
+ NowState :   Stat: 27.TONC, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   9, Arr=   8, Dir=UD, Clt=1.11578e+02, Hc=   2
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   9, Arr=   8, Dir=UD, Clt=1.13428e+02, Hc=   2
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   9, Arr=   8, Dir=UD, Clt=1.15278e+02, Hc=   2
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   9, Arr=   8, Dir=UD, Clt=1.15278e+02, Hc=   2
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   9, Arr=   8, Dir=UD, Clt=1.15278e+02, Hc=   2
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   8, Arr=   7, Dir=UD, Clt=1.15278e+02, Hc=   2
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.692817	 Cycle=   1	Pos=   7, hw=2.40625e+01, Dep=   8, Arr=   7, Dir=UD, Clt=1.16971e+02, Hc=   2
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.692817	 Cycle=   1	Pos=   7, hw=2.27500e+01, Dep=   8, Arr=   7, Dir=UD, Clt=1.18663e+02, Hc=   2
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   1	Pos=   7, hw=2.27500e+01, Dep=   8, Arr=   7, Dir=UD, Clt=1.18663e+02, Hc=   2
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   1	Pos=   7, hw=2.14375e+01, Dep=   8, Arr=   7, Dir=UD, Clt=1.18663e+02, Hc=   2
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.385633	 Cycle=   1	Pos=   7, hw=2.10000e+01, Dep=   8, Arr=   7, Dir=UD, Clt=1.22049e+02, Hc=   2
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   1	Pos=   7, hw=2.10000e+01, Dep=   8, Arr=   7, Dir=UD, Clt=1.22049e+02, Hc=   2
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   1	Pos=   7, hw=2.10000e+01, Dep=   8, Arr=   7, Dir=UD, Clt=1.22049e+02, Hc=   2
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   1	Pos=   7, hw=2.10000e+01, Dep=   8, Arr=   7, Dir=UD, Clt=1.22049e+02, Hc=   2
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   1	Pos=   7, hw=2.10000e+01, Dep=   8, Arr=   7, Dir=UD, Clt=1.23099e+02, Hc=   2
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   1	Pos=   7, hw=2.10000e+01, Dep=   8, Arr=   7, Dir=UD, Clt=1.24149e+02, Hc=   2
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   1	Pos=   7, hw=2.10000e+01, Dep=   8, Arr=   7, Dir=UD, Clt=1.24149e+02, Hc=   2
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   1	Pos=   7, hw=2.10000e+01, Dep=   8, Arr=   7, Dir=UD, Clt=1.24149e+02, Hc=   2
+ NowState :   Stat: 24.TONP, NowState :   Stat: 25.TONB, itv      : 0.000000	 Cycle=   1	Pos=   7, hw=2.10000e+01, Dep=   8, Arr=   7, Dir=UD, Clt=1.24149e+02, Hc=   2
+ NowState :   Stat: 25.TONB, NowState :   Stat: 26.TONM, itv      : 0.800000	 Cycle=   1	Pos=   7, hw=2.10000e+01, Dep=   8, Arr=   7, Dir=UD, Clt=1.24949e+02, Hc=   3
+ NowState :   Stat: 26.TONM, NowState :   Stat: 27.TONC, itv      : 0.800000	 Cycle=   1	Pos=   7, hw=2.10000e+01, Dep=   8, Arr=   7, Dir=UD, Clt=1.25749e+02, Hc=   4
+ NowState :   Stat: 27.TONC, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   1	Pos=   7, hw=2.10000e+01, Dep=   8, Arr=   7, Dir=UD, Clt=1.25749e+02, Hc=   4
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   1	Pos=   7, hw=2.10000e+01, Dep=   8, Arr=   7, Dir=UD, Clt=1.27599e+02, Hc=   4
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   1	Pos=   7, hw=2.10000e+01, Dep=   8, Arr=   7, Dir=UD, Clt=1.29449e+02, Hc=   4
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   1	Pos=   7, hw=2.10000e+01, Dep=   8, Arr=   7, Dir=UD, Clt=1.29449e+02, Hc=   4
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   1	Pos=   7, hw=2.10000e+01, Dep=   8, Arr=   7, Dir=UD, Clt=1.29449e+02, Hc=   4
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   1	Pos=   7, hw=2.10000e+01, Dep=   7, Arr=   6, Dir=UD, Clt=1.29449e+02, Hc=   4
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.692817	 Cycle=   1	Pos=   6, hw=2.05625e+01, Dep=   7, Arr=   6, Dir=UD, Clt=1.31142e+02, Hc=   4
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.692817	 Cycle=   1	Pos=   6, hw=1.92500e+01, Dep=   7, Arr=   6, Dir=UD, Clt=1.32835e+02, Hc=   4
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.92500e+01, Dep=   7, Arr=   6, Dir=UD, Clt=1.32835e+02, Hc=   4
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.79375e+01, Dep=   7, Arr=   6, Dir=UD, Clt=1.32835e+02, Hc=   4
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.385633	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   7, Arr=   6, Dir=UD, Clt=1.36220e+02, Hc=   4
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   7, Arr=   6, Dir=UD, Clt=1.36220e+02, Hc=   4
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   7, Arr=   6, Dir=UD, Clt=1.36220e+02, Hc=   4
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   7, Arr=   6, Dir=UD, Clt=1.36220e+02, Hc=   4
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   7, Arr=   6, Dir=UD, Clt=1.37270e+02, Hc=   4
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   7, Arr=   6, Dir=UD, Clt=1.38320e+02, Hc=   4
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   7, Arr=   6, Dir=UD, Clt=1.38320e+02, Hc=   4
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   7, Arr=   6, Dir=UD, Clt=1.38320e+02, Hc=   4
+ NowState :   Stat: 24.TONP, NowState :   Stat: 25.TONB, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   7, Arr=   6, Dir=UD, Clt=1.38320e+02, Hc=   4
+ NowState :   Stat: 25.TONB, NowState :   Stat: 26.TONM, itv      : 0.800000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   7, Arr=   6, Dir=UD, Clt=1.39120e+02, Hc=   5
+ NowState :   Stat: 26.TONM, NowState :   Stat: 27.TONC, itv      : 0.800000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   7, Arr=   6, Dir=UD, Clt=1.39920e+02, Hc=   6
+ NowState :   Stat: 27.TONC, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   7, Arr=   6, Dir=UD, Clt=1.39920e+02, Hc=   6
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   7, Arr=   6, Dir=UD, Clt=1.41770e+02, Hc=   6
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   7, Arr=   6, Dir=UD, Clt=1.43620e+02, Hc=   6
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   7, Arr=   6, Dir=UD, Clt=1.43620e+02, Hc=   6
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   7, Arr=   6, Dir=UD, Clt=1.43620e+02, Hc=   6
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   6, Arr=   1, Dir=UD, Clt=1.43620e+02, Hc=   6
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.700000	 Cycle=   1	Pos=   5, hw=1.68625e+01, Dep=   6, Arr=   1, Dir=LD, Clt=1.45320e+02, Hc=   6
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.700000	 Cycle=   1	Pos=   5, hw=1.49500e+01, Dep=   6, Arr=   1, Dir=LD, Clt=1.47020e+02, Hc=   6
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 09.RCOB, itv      : 0.000000	 Cycle=   1	Pos=   5, hw=1.49500e+01, Dep=   6, Arr=   1, Dir=LD, Clt=1.47020e+02, Hc=   6
+ NowState :   Stat: 09.RCOB, NowState :   Stat: 10.RCOM, itv      : 3.542857	 Cycle=   1	Pos=   3, hw=8.75000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=1.50563e+02, Hc=   6
+ NowState :   Stat: 10.RCOM, NowState :   Stat: 05.RTSR, itv      : 3.542857	 Cycle=   1	Pos=   1, hw=2.55000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=1.54106e+02, Hc=   6
+ NowState :   Stat: 05.RTSR, NowState :   Stat: 11.RCOC, itv      : 0.000000	 Cycle=   1	Pos=   1, hw=2.55000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=1.54106e+02, Hc=   6
+ NowState :   Stat: 11.RCOC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   1	Pos=   1, hw=2.55000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=1.54106e+02, Hc=   6
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   1	Pos=   1, hw=6.37500e-01, Dep=   6, Arr=   1, Dir=LD, Clt=1.54106e+02, Hc=   6
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.400000	 Cycle=   1	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=1.57506e+02, Hc=   6
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=1.57506e+02, Hc=   6
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=1.57506e+02, Hc=   6
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=1.57506e+02, Hc=   6
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=1.58556e+02, Hc=   6
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=1.59606e+02, Hc=   6
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=1.59606e+02, Hc=   6
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 21.TOFB, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=1.59606e+02, Hc=   6
+ NowState :   Stat: 21.TOFB, NowState :   Stat: 22.TOFM, itv      : 2.400000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=1.62006e+02, Hc=   3
+ NowState :   Stat: 22.TOFM, NowState :   Stat: 23.TOFC, itv      : 2.400000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=1.64406e+02, Hc=   0
+ NowState :   Stat: 23.TOFC, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=1.64406e+02, Hc=   0
+ NowState :   Stat: 24.TONP, NowState :   Stat: 25.TONB, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=1.64406e+02, Hc=   0
+ NowState :   Stat: 25.TONB, NowState :   Stat: 26.TONM, itv      : 1.600000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=1.66006e+02, Hc=   2
+ NowState :   Stat: 26.TONM, NowState :   Stat: 27.TONC, itv      : 1.600000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=1.67606e+02, Hc=   4
+ NowState :   Stat: 27.TONC, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=1.67606e+02, Hc=   4
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=1.69456e+02, Hc=   4
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=1.71306e+02, Hc=   4
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=1.71306e+02, Hc=   4
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=1.71306e+02, Hc=   4
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=1.71306e+02, Hc=   4
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.700000	 Cycle=   2	Pos=   1, hw=6.37500e-01, Dep=   1, Arr=   3, Dir=LU, Clt=1.73006e+02, Hc=   4
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.700000	 Cycle=   2	Pos=   1, hw=2.55000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=1.74706e+02, Hc=   4
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 09.RCOB, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=2.55000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=1.74706e+02, Hc=   4
+ NowState :   Stat: 09.RCOB, NowState :   Stat: 10.RCOM, itv      : 0.542857	 Cycle=   2	Pos=   2, hw=3.50000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=1.75249e+02, Hc=   4
+ NowState :   Stat: 10.RCOM, NowState :   Stat: 05.RTSR, itv      : 0.542857	 Cycle=   2	Pos=   2, hw=4.45000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=1.75792e+02, Hc=   4
+ NowState :   Stat: 05.RTSR, NowState :   Stat: 11.RCOC, itv      : 0.000000	 Cycle=   2	Pos=   2, hw=4.45000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=1.75792e+02, Hc=   4
+ NowState :   Stat: 11.RCOC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   2	Pos=   2, hw=4.45000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=1.75792e+02, Hc=   4
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   2	Pos=   2, hw=6.36250e+00, Dep=   1, Arr=   3, Dir=LU, Clt=1.75792e+02, Hc=   4
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.400000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=1.79192e+02, Hc=   4
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=1.79192e+02, Hc=   4
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=1.79192e+02, Hc=   4
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=1.79192e+02, Hc=   4
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=1.80242e+02, Hc=   4
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=1.81292e+02, Hc=   4
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=1.81292e+02, Hc=   4
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 21.TOFB, itv      : 0.000000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=1.81292e+02, Hc=   4
+ NowState :   Stat: 21.TOFB, NowState :   Stat: 22.TOFM, itv      : 0.000000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=1.81292e+02, Hc=   4
+ NowState :   Stat: 22.TOFM, NowState :   Stat: 23.TOFC, itv      : 0.800000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=1.82092e+02, Hc=   3
+ NowState :   Stat: 23.TOFC, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=1.82092e+02, Hc=   3
+ NowState :   Stat: 24.TONP, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=1.82092e+02, Hc=   3
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=1.83942e+02, Hc=   3
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=1.85792e+02, Hc=   3
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=1.85792e+02, Hc=   3
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=1.85792e+02, Hc=   3
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   3, Arr=   4, Dir=LU, Clt=1.85792e+02, Hc=   3
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.692817	 Cycle=   2	Pos=   3, hw=7.43750e+00, Dep=   3, Arr=   4, Dir=LU, Clt=1.87485e+02, Hc=   3
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.692817	 Cycle=   2	Pos=   3, hw=8.75000e+00, Dep=   3, Arr=   4, Dir=LU, Clt=1.89177e+02, Hc=   3
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   2	Pos=   3, hw=8.75000e+00, Dep=   3, Arr=   4, Dir=LU, Clt=1.89177e+02, Hc=   3
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   2	Pos=   3, hw=1.00625e+01, Dep=   3, Arr=   4, Dir=LU, Clt=1.89177e+02, Hc=   3
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.385633	 Cycle=   2	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=1.92563e+02, Hc=   3
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   2	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=1.92563e+02, Hc=   3
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   2	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=1.92563e+02, Hc=   3
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   2	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=1.92563e+02, Hc=   3
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   2	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=1.93613e+02, Hc=   3
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   2	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=1.94663e+02, Hc=   3
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   2	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=1.94663e+02, Hc=   3
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 21.TOFB, itv      : 0.000000	 Cycle=   2	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=1.94663e+02, Hc=   3
+ NowState :   Stat: 21.TOFB, NowState :   Stat: 22.TOFM, itv      : 0.000000	 Cycle=   2	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=1.94663e+02, Hc=   3
+ NowState :   Stat: 22.TOFM, NowState :   Stat: 23.TOFC, itv      : 0.800000	 Cycle=   2	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=1.95463e+02, Hc=   2
+ NowState :   Stat: 23.TOFC, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   2	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=1.95463e+02, Hc=   2
+ NowState :   Stat: 24.TONP, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   2	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=1.95463e+02, Hc=   2
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   2	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=1.97313e+02, Hc=   2
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   2	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=1.99163e+02, Hc=   2
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   2	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=1.99163e+02, Hc=   2
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   2	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=1.99163e+02, Hc=   2
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   2	Pos=   4, hw=1.05000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=1.99163e+02, Hc=   2
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.692817	 Cycle=   2	Pos=   4, hw=1.09375e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.00856e+02, Hc=   2
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.692817	 Cycle=   2	Pos=   4, hw=1.22500e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.02549e+02, Hc=   2
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   2	Pos=   4, hw=1.22500e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.02549e+02, Hc=   2
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   2	Pos=   4, hw=1.35625e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.02549e+02, Hc=   2
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.385633	 Cycle=   2	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.05934e+02, Hc=   2
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   2	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.05934e+02, Hc=   2
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   2	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.05934e+02, Hc=   2
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   2	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.05934e+02, Hc=   2
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   2	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.06984e+02, Hc=   2
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   2	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.08034e+02, Hc=   2
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   2	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.08034e+02, Hc=   2
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 21.TOFB, itv      : 0.000000	 Cycle=   2	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.08034e+02, Hc=   2
+ NowState :   Stat: 21.TOFB, NowState :   Stat: 22.TOFM, itv      : 0.000000	 Cycle=   2	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.08034e+02, Hc=   2
+ NowState :   Stat: 22.TOFM, NowState :   Stat: 23.TOFC, itv      : 0.800000	 Cycle=   2	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.08834e+02, Hc=   1
+ NowState :   Stat: 23.TOFC, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   2	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.08834e+02, Hc=   1
+ NowState :   Stat: 24.TONP, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   2	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.08834e+02, Hc=   1
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   2	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.10684e+02, Hc=   1
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   2	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.12534e+02, Hc=   1
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   2	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.12534e+02, Hc=   1
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   2	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.12534e+02, Hc=   1
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   2	Pos=   5, hw=1.40000e+01, Dep=   5, Arr=  10, Dir=LU, Clt=2.12534e+02, Hc=   1
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.700000	 Cycle=   2	Pos=   5, hw=1.46375e+01, Dep=   5, Arr=  10, Dir=LU, Clt=2.14234e+02, Hc=   1
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.700000	 Cycle=   2	Pos=   5, hw=1.65500e+01, Dep=   5, Arr=  10, Dir=LU, Clt=2.15934e+02, Hc=   1
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 09.RCOB, itv      : 0.000000	 Cycle=   2	Pos=   5, hw=1.65500e+01, Dep=   5, Arr=  10, Dir=LU, Clt=2.15934e+02, Hc=   1
+ NowState :   Stat: 09.RCOB, NowState :   Stat: 10.RCOM, itv      : 3.542857	 Cycle=   2	Pos=   7, hw=2.27500e+01, Dep=   5, Arr=  10, Dir=UU, Clt=2.19477e+02, Hc=   1
+ NowState :   Stat: 10.RCOM, NowState :   Stat: 05.RTSR, itv      : 3.542857	 Cycle=   2	Pos=   9, hw=2.89500e+01, Dep=   5, Arr=  10, Dir=UU, Clt=2.23020e+02, Hc=   1
+ NowState :   Stat: 05.RTSR, NowState :   Stat: 11.RCOC, itv      : 0.000000	 Cycle=   2	Pos=   9, hw=2.89500e+01, Dep=   5, Arr=  10, Dir=UU, Clt=2.23020e+02, Hc=   1
+ NowState :   Stat: 11.RCOC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   2	Pos=   9, hw=2.89500e+01, Dep=   5, Arr=  10, Dir=UU, Clt=2.23020e+02, Hc=   1
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   2	Pos=   9, hw=3.08625e+01, Dep=   5, Arr=  10, Dir=UU, Clt=2.23020e+02, Hc=   1
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.400000	 Cycle=   2	Pos=  10, hw=3.15000e+01, Dep=   5, Arr=  10, Dir=UU, Clt=2.26420e+02, Hc=   1
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=   5, Arr=  10, Dir=UU, Clt=2.26420e+02, Hc=   1
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=   5, Arr=  10, Dir=UU, Clt=2.26420e+02, Hc=   1
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=   5, Arr=  10, Dir=UU, Clt=2.26420e+02, Hc=   1
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=   5, Arr=  10, Dir=UU, Clt=2.27470e+02, Hc=   1
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=   5, Arr=  10, Dir=UU, Clt=2.28520e+02, Hc=   1
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=   5, Arr=  10, Dir=UU, Clt=2.28520e+02, Hc=   1
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 21.TOFB, itv      : 0.000000	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=   5, Arr=  10, Dir=UU, Clt=2.28520e+02, Hc=   1
+ NowState :   Stat: 21.TOFB, NowState :   Stat: 22.TOFM, itv      : 0.000000	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=   5, Arr=  10, Dir=UU, Clt=2.28520e+02, Hc=   1
+ NowState :   Stat: 22.TOFM, NowState :   Stat: 23.TOFC, itv      : 0.800000	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=   5, Arr=  10, Dir=UU, Clt=2.29320e+02, Hc=   0
+ NowState :   Stat: 23.TOFC, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=   5, Arr=  10, Dir=UU, Clt=2.29320e+02, Hc=   0
+ NowState :   Stat: 24.TONP, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=   5, Arr=  10, Dir=UU, Clt=2.29320e+02, Hc=   0
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=   5, Arr=  10, Dir=UU, Clt=2.31170e+02, Hc=   0
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=   5, Arr=  10, Dir=UU, Clt=2.33020e+02, Hc=   0
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=   5, Arr=  10, Dir=UU, Clt=2.33020e+02, Hc=   0
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=   5, Arr=  10, Dir=UU, Clt=2.33020e+02, Hc=   0
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=  10, Arr=   9, Dir=UD, Clt=2.33020e+02, Hc=   0
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.692817	 Cycle=   3	Pos=   9, hw=3.10625e+01, Dep=  10, Arr=   9, Dir=UD, Clt=2.34713e+02, Hc=   0
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.692817	 Cycle=   3	Pos=   9, hw=2.97500e+01, Dep=  10, Arr=   9, Dir=UD, Clt=2.36406e+02, Hc=   0
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   3	Pos=   9, hw=2.97500e+01, Dep=  10, Arr=   9, Dir=UD, Clt=2.36406e+02, Hc=   0
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   3	Pos=   9, hw=2.84375e+01, Dep=  10, Arr=   9, Dir=UD, Clt=2.36406e+02, Hc=   0
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.385633	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=  10, Arr=   9, Dir=UD, Clt=2.39791e+02, Hc=   0
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=  10, Arr=   9, Dir=UD, Clt=2.39791e+02, Hc=   0
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=  10, Arr=   9, Dir=UD, Clt=2.39791e+02, Hc=   0
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=  10, Arr=   9, Dir=UD, Clt=2.39791e+02, Hc=   0
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=  10, Arr=   9, Dir=UD, Clt=2.40841e+02, Hc=   0
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=  10, Arr=   9, Dir=UD, Clt=2.41891e+02, Hc=   0
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=  10, Arr=   9, Dir=UD, Clt=2.41891e+02, Hc=   0
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=  10, Arr=   9, Dir=UD, Clt=2.41891e+02, Hc=   0
+ NowState :   Stat: 24.TONP, NowState :   Stat: 25.TONB, itv      : 0.000000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=  10, Arr=   9, Dir=UD, Clt=2.41891e+02, Hc=   0
+ NowState :   Stat: 25.TONB, NowState :   Stat: 26.TONM, itv      : 0.800000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=  10, Arr=   9, Dir=UD, Clt=2.42691e+02, Hc=   1
+ NowState :   Stat: 26.TONM, NowState :   Stat: 27.TONC, itv      : 0.800000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=  10, Arr=   9, Dir=UD, Clt=2.43491e+02, Hc=   2
+ NowState :   Stat: 27.TONC, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=  10, Arr=   9, Dir=UD, Clt=2.43491e+02, Hc=   2
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=  10, Arr=   9, Dir=UD, Clt=2.45341e+02, Hc=   2
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=  10, Arr=   9, Dir=UD, Clt=2.47191e+02, Hc=   2
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=  10, Arr=   9, Dir=UD, Clt=2.47191e+02, Hc=   2
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=  10, Arr=   9, Dir=UD, Clt=2.47191e+02, Hc=   2
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=   9, Arr=   7, Dir=UD, Clt=2.47191e+02, Hc=   2
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.700000	 Cycle=   3	Pos=   8, hw=2.73625e+01, Dep=   9, Arr=   7, Dir=UD, Clt=2.48891e+02, Hc=   2
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.700000	 Cycle=   3	Pos=   8, hw=2.54500e+01, Dep=   9, Arr=   7, Dir=UD, Clt=2.50591e+02, Hc=   2
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 09.RCOB, itv      : 0.000000	 Cycle=   3	Pos=   8, hw=2.54500e+01, Dep=   9, Arr=   7, Dir=UD, Clt=2.50591e+02, Hc=   2
+ NowState :   Stat: 09.RCOB, NowState :   Stat: 10.RCOM, itv      : 0.542857	 Cycle=   3	Pos=   8, hw=2.45000e+01, Dep=   9, Arr=   7, Dir=UD, Clt=2.51134e+02, Hc=   2
+ NowState :   Stat: 10.RCOM, NowState :   Stat: 05.RTSR, itv      : 0.542857	 Cycle=   3	Pos=   7, hw=2.35500e+01, Dep=   9, Arr=   7, Dir=UD, Clt=2.51677e+02, Hc=   2
+ NowState :   Stat: 05.RTSR, NowState :   Stat: 11.RCOC, itv      : 0.000000	 Cycle=   3	Pos=   7, hw=2.35500e+01, Dep=   9, Arr=   7, Dir=UD, Clt=2.51677e+02, Hc=   2
+ NowState :   Stat: 11.RCOC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   3	Pos=   7, hw=2.35500e+01, Dep=   9, Arr=   7, Dir=UD, Clt=2.51677e+02, Hc=   2
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   3	Pos=   7, hw=2.16375e+01, Dep=   9, Arr=   7, Dir=UD, Clt=2.51677e+02, Hc=   2
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.400000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   9, Arr=   7, Dir=UD, Clt=2.55077e+02, Hc=   2
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   9, Arr=   7, Dir=UD, Clt=2.55077e+02, Hc=   2
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   9, Arr=   7, Dir=UD, Clt=2.55077e+02, Hc=   2
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   9, Arr=   7, Dir=UD, Clt=2.55077e+02, Hc=   2
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   9, Arr=   7, Dir=UD, Clt=2.56127e+02, Hc=   2
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   9, Arr=   7, Dir=UD, Clt=2.57177e+02, Hc=   2
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   9, Arr=   7, Dir=UD, Clt=2.57177e+02, Hc=   2
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   9, Arr=   7, Dir=UD, Clt=2.57177e+02, Hc=   2
+ NowState :   Stat: 24.TONP, NowState :   Stat: 25.TONB, itv      : 0.000000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   9, Arr=   7, Dir=UD, Clt=2.57177e+02, Hc=   2
+ NowState :   Stat: 25.TONB, NowState :   Stat: 26.TONM, itv      : 0.000000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   9, Arr=   7, Dir=UD, Clt=2.57177e+02, Hc=   2
+ NowState :   Stat: 26.TONM, NowState :   Stat: 27.TONC, itv      : 0.800000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   9, Arr=   7, Dir=UD, Clt=2.57977e+02, Hc=   3
+ NowState :   Stat: 27.TONC, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   9, Arr=   7, Dir=UD, Clt=2.57977e+02, Hc=   3
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   9, Arr=   7, Dir=UD, Clt=2.59827e+02, Hc=   3
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   9, Arr=   7, Dir=UD, Clt=2.61677e+02, Hc=   3
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   9, Arr=   7, Dir=UD, Clt=2.61677e+02, Hc=   3
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   9, Arr=   7, Dir=UD, Clt=2.61677e+02, Hc=   3
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   7, Arr=   5, Dir=UD, Clt=2.61677e+02, Hc=   3
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.700000	 Cycle=   3	Pos=   6, hw=2.03625e+01, Dep=   7, Arr=   5, Dir=UD, Clt=2.63377e+02, Hc=   3
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.700000	 Cycle=   3	Pos=   6, hw=1.84500e+01, Dep=   7, Arr=   5, Dir=UD, Clt=2.65077e+02, Hc=   3
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 09.RCOB, itv      : 0.000000	 Cycle=   3	Pos=   6, hw=1.84500e+01, Dep=   7, Arr=   5, Dir=UD, Clt=2.65077e+02, Hc=   3
+ NowState :   Stat: 09.RCOB, NowState :   Stat: 10.RCOM, itv      : 0.542857	 Cycle=   3	Pos=   6, hw=1.75000e+01, Dep=   7, Arr=   5, Dir=UD, Clt=2.65620e+02, Hc=   3
+ NowState :   Stat: 10.RCOM, NowState :   Stat: 05.RTSR, itv      : 0.542857	 Cycle=   3	Pos=   5, hw=1.65500e+01, Dep=   7, Arr=   5, Dir=LD, Clt=2.66163e+02, Hc=   3
+ NowState :   Stat: 05.RTSR, NowState :   Stat: 11.RCOC, itv      : 0.000000	 Cycle=   3	Pos=   5, hw=1.65500e+01, Dep=   7, Arr=   5, Dir=LD, Clt=2.66163e+02, Hc=   3
+ NowState :   Stat: 11.RCOC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   3	Pos=   5, hw=1.65500e+01, Dep=   7, Arr=   5, Dir=LD, Clt=2.66163e+02, Hc=   3
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   3	Pos=   5, hw=1.46375e+01, Dep=   7, Arr=   5, Dir=LD, Clt=2.66163e+02, Hc=   3
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.400000	 Cycle=   3	Pos=   5, hw=1.40000e+01, Dep=   7, Arr=   5, Dir=LD, Clt=2.69563e+02, Hc=   3
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   7, Arr=   5, Dir=LD, Clt=2.69563e+02, Hc=   3
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   7, Arr=   5, Dir=LD, Clt=2.69563e+02, Hc=   3
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   7, Arr=   5, Dir=LD, Clt=2.69563e+02, Hc=   3
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   7, Arr=   5, Dir=LD, Clt=2.70613e+02, Hc=   3
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   7, Arr=   5, Dir=LD, Clt=2.71663e+02, Hc=   3
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   7, Arr=   5, Dir=LD, Clt=2.71663e+02, Hc=   3
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   7, Arr=   5, Dir=LD, Clt=2.71663e+02, Hc=   3
+ NowState :   Stat: 24.TONP, NowState :   Stat: 25.TONB, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   7, Arr=   5, Dir=LD, Clt=2.71663e+02, Hc=   3
+ NowState :   Stat: 25.TONB, NowState :   Stat: 26.TONM, itv      : 0.800000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   7, Arr=   5, Dir=LD, Clt=2.72463e+02, Hc=   4
+ NowState :   Stat: 26.TONM, NowState :   Stat: 27.TONC, itv      : 0.800000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   7, Arr=   5, Dir=LD, Clt=2.73263e+02, Hc=   5
+ NowState :   Stat: 27.TONC, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   7, Arr=   5, Dir=LD, Clt=2.73263e+02, Hc=   5
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   7, Arr=   5, Dir=LD, Clt=2.75113e+02, Hc=   5
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   7, Arr=   5, Dir=LD, Clt=2.76963e+02, Hc=   5
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   7, Arr=   5, Dir=LD, Clt=2.76963e+02, Hc=   5
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   7, Arr=   5, Dir=LD, Clt=2.76963e+02, Hc=   5
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   5, Arr=   4, Dir=LD, Clt=2.76963e+02, Hc=   5
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.692817	 Cycle=   4	Pos=   4, hw=1.35625e+01, Dep=   5, Arr=   4, Dir=LD, Clt=2.78655e+02, Hc=   5
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.692817	 Cycle=   4	Pos=   4, hw=1.22500e+01, Dep=   5, Arr=   4, Dir=LD, Clt=2.80348e+02, Hc=   5
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   4	Pos=   4, hw=1.22500e+01, Dep=   5, Arr=   4, Dir=LD, Clt=2.80348e+02, Hc=   5
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   4	Pos=   4, hw=1.09375e+01, Dep=   5, Arr=   4, Dir=LD, Clt=2.80348e+02, Hc=   5
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.385633	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   5, Arr=   4, Dir=LD, Clt=2.83734e+02, Hc=   5
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   5, Arr=   4, Dir=LD, Clt=2.83734e+02, Hc=   5
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   5, Arr=   4, Dir=LD, Clt=2.83734e+02, Hc=   5
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   5, Arr=   4, Dir=LD, Clt=2.83734e+02, Hc=   5
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   5, Arr=   4, Dir=LD, Clt=2.84784e+02, Hc=   5
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   5, Arr=   4, Dir=LD, Clt=2.85834e+02, Hc=   5
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   5, Arr=   4, Dir=LD, Clt=2.85834e+02, Hc=   5
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   5, Arr=   4, Dir=LD, Clt=2.85834e+02, Hc=   5
+ NowState :   Stat: 24.TONP, NowState :   Stat: 25.TONB, itv      : 0.000000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   5, Arr=   4, Dir=LD, Clt=2.85834e+02, Hc=   5
+ NowState :   Stat: 25.TONB, NowState :   Stat: 26.TONM, itv      : 0.000000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   5, Arr=   4, Dir=LD, Clt=2.85834e+02, Hc=   5
+ NowState :   Stat: 26.TONM, NowState :   Stat: 27.TONC, itv      : 0.800000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   5, Arr=   4, Dir=LD, Clt=2.86634e+02, Hc=   6
+ NowState :   Stat: 27.TONC, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   5, Arr=   4, Dir=LD, Clt=2.86634e+02, Hc=   6
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   5, Arr=   4, Dir=LD, Clt=2.88484e+02, Hc=   6
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   5, Arr=   4, Dir=LD, Clt=2.90334e+02, Hc=   6
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   5, Arr=   4, Dir=LD, Clt=2.90334e+02, Hc=   6
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   5, Arr=   4, Dir=LD, Clt=2.90334e+02, Hc=   6
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   4, Arr=   2, Dir=LD, Clt=2.90334e+02, Hc=   6
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.700000	 Cycle=   4	Pos=   3, hw=9.86250e+00, Dep=   4, Arr=   2, Dir=LD, Clt=2.92034e+02, Hc=   6
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.700000	 Cycle=   4	Pos=   3, hw=7.95000e+00, Dep=   4, Arr=   2, Dir=LD, Clt=2.93734e+02, Hc=   6
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 09.RCOB, itv      : 0.000000	 Cycle=   4	Pos=   3, hw=7.95000e+00, Dep=   4, Arr=   2, Dir=LD, Clt=2.93734e+02, Hc=   6
+ NowState :   Stat: 09.RCOB, NowState :   Stat: 10.RCOM, itv      : 0.542857	 Cycle=   4	Pos=   3, hw=7.00000e+00, Dep=   4, Arr=   2, Dir=LD, Clt=2.94277e+02, Hc=   6
+ NowState :   Stat: 10.RCOM, NowState :   Stat: 05.RTSR, itv      : 0.542857	 Cycle=   4	Pos=   2, hw=6.05000e+00, Dep=   4, Arr=   2, Dir=LD, Clt=2.94820e+02, Hc=   6
+ NowState :   Stat: 05.RTSR, NowState :   Stat: 11.RCOC, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=6.05000e+00, Dep=   4, Arr=   2, Dir=LD, Clt=2.94820e+02, Hc=   6
+ NowState :   Stat: 11.RCOC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=6.05000e+00, Dep=   4, Arr=   2, Dir=LD, Clt=2.94820e+02, Hc=   6
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=4.13750e+00, Dep=   4, Arr=   2, Dir=LD, Clt=2.94820e+02, Hc=   6
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.400000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   4, Arr=   2, Dir=LD, Clt=2.98220e+02, Hc=   6
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   4, Arr=   2, Dir=LD, Clt=2.98220e+02, Hc=   6
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   4, Arr=   2, Dir=LD, Clt=2.98220e+02, Hc=   6
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   4, Arr=   2, Dir=LD, Clt=2.98220e+02, Hc=   6
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   4, Arr=   2, Dir=LD, Clt=2.99270e+02, Hc=   6
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   4, Arr=   2, Dir=LD, Clt=3.00320e+02, Hc=   6
+EleLife SummarySimulation    1 Start !
+ PID--- CID- ToF TfF CLT---- CIT---- ToT---- TfT---- CWI---- TrT---- SvT---- SvS-----
+      1    1   5   1     2.1     2.1    16.1    34.5    14.0    18.5    32.5 09.SVCP
+      2    1   8   1     2.8     0.8   110.0   159.6   107.1    49.6   156.8 09.SVCP
+      3    1   1   6     3.5     0.6    35.3    77.7    31.9    42.4    74.2 09.SVCP
+      4    1   1   6     4.3     0.8    36.1    78.5    31.8    42.4    74.2 09.SVCP
+      5    1   6   1     9.6     5.3   138.3   162.8   128.7    24.5   153.2 09.SVCP
+      6    1   1   6    13.3     3.7    36.9    79.3    23.6    42.4    66.0 09.SVCP
+      7    1   8   1    14.7     1.4   110.8   160.4    96.1    49.6   145.7 09.SVCP
+      8    1   1   3    20.1     5.4    37.7    60.4    17.7    22.7    40.4 09.SVCP
+      9    1   1   3    28.2     8.1    38.5    61.2    10.4    22.7    33.1 09.SVCP
+     10    1   7   1    35.8     7.7   124.1   161.2    88.3    37.1   125.4 09.SVCP
+     11    1   1   9    41.7     5.9    45.1    96.6     3.4    51.5    54.9 09.SVCP
+     12    1   1   6    44.5     2.7    45.9    80.1     1.5    34.2    35.6 09.SVCP
+     13    1   7   1    47.4     2.9   124.9   162.0    77.5    37.1   114.6 09.SVCP
+     14    1   1   3    60.4    12.9   164.4   181.3   104.0    16.9   120.9 09.SVCP
+     15    1   1  10    67.2     6.8   165.2   228.5    98.0    63.3   161.3 09.SVCP
+     16    1   1   4    77.6    10.4   166.0   194.7    88.4    28.7   117.0 09.SVCP
+     17    1   1   5    97.2    19.6   166.8   208.0    69.6    41.2   110.8 09.SVCP
+     18    1   6   1   105.0     7.8   139.1   163.6    34.1    24.5    58.6 09.SVCP
+     19    1   9   1   129.6    24.6   241.9     0.0   112.3  -241.9  -129.6 07.SVRM
+     20    1   5   1   146.5    16.9   271.7     0.0   125.2  -271.7  -146.5 07.SVRM
+     21    1   2   1   174.8    28.3     0.0     0.0  -174.8     0.0  -174.8 04.SVCA
+     22    0   1   3   177.0     2.3     0.0     0.0  -177.0     0.0  -177.0 03.SVCW
+     23    1   9   1   196.3    19.3   242.7     0.0    46.3  -242.7  -196.3 07.SVRM
+     24    0   1  10   204.6     8.2     0.0     0.0  -204.6     0.0  -204.6 03.SVCW
+     25    0   1   2   207.5     2.9     0.0     0.0  -207.5     0.0  -207.5 03.SVCW
+     26    1   4   1   224.5    17.0   285.8     0.0    61.4  -285.8  -224.5 07.SVRM
+     27    0   1   9   226.6     2.1     0.0     0.0  -226.6     0.0  -226.6 03.SVCW
+     28    1   5   1   228.1     1.5   272.5     0.0    44.4  -272.5  -228.1 07.SVRM
+     29    0   1   5   234.0     5.9     0.0     0.0  -234.0     0.0  -234.0 03.SVCW
+     30    1   7   1   242.7     8.7   257.2     0.0    14.5  -257.2  -242.7 07.SVRM
+     31    0  10   1   248.4     5.8     0.0     0.0  -248.4     0.0  -248.4 03.SVCW
+     32    0   1   7   253.5     5.0     0.0     0.0  -253.5     0.0  -253.5 03.SVCW
+     33    0   1   8   260.4     7.0     0.0     0.0  -260.4     0.0  -260.4 03.SVCW
+     34    0   1   5   262.3     1.8     0.0     0.0  -262.3     0.0  -262.3 03.SVCW
+     35    0   1   5   271.7     9.4     0.0     0.0  -271.7     0.0  -271.7 03.SVCW
+     36    0   1   6   277.3     5.6     0.0     0.0  -277.3     0.0  -277.3 03.SVCW
+ PID--- CID- ToF TfF CLT---- CIT---- ToT---- TfT---- CWI---- TrT---- SvT---- SvS-----
+TotalCallWaitIntervalTimeSec=1026.15
+TotalTransitTimeSec= 649.03
+TotalBenefitServiceTimeSec=1675.18
+TotalCallWaitPassengers=    36
+TotalTakeOnPassengers=    24
+TotalServiceComplete=    18
+TotalLongWaitPassengers=    12
+EleLife SummarySimulation    1 End !
+Start Local Time 0.000000
+Final Local Time 300.000000
+ NowState :   Stat: 01.RCWB, NowState :   Stat: 02.RCWM, itv      : 0.000000	 Cycle=   0	Pos=   5, hw=0.00000e+00, Dep=   5, Arr=   5, Dir=LD, Clt=0.00000e+00, Hc=   0
+ NowState :   Stat: 02.RCWM, NowState :   Stat: 03.RCWC, itv      : 2.077892	 Cycle=   0	Pos=   5, hw=0.00000e+00, Dep=   5, Arr=   5, Dir=LD, Clt=2.07789e+00, Hc=   0
+ NowState :   Stat: 03.RCWC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   0	Pos=   5, hw=0.00000e+00, Dep=   5, Arr=   5, Dir=LD, Clt=2.07789e+00, Hc=   0
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   0	Pos=   5, hw=0.00000e+00, Dep=   5, Arr=   5, Dir=L-, Clt=2.07789e+00, Hc=   0
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   0	Pos=   5, hw=0.00000e+00, Dep=   5, Arr=   5, Dir=L-, Clt=2.07789e+00, Hc=   0
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   0	Pos=   5, hw=0.00000e+00, Dep=   5, Arr=   5, Dir=L-, Clt=2.07789e+00, Hc=   0
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   0	Pos=   5, hw=0.00000e+00, Dep=   5, Arr=   5, Dir=L-, Clt=3.12789e+00, Hc=   0
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   0	Pos=   5, hw=0.00000e+00, Dep=   5, Arr=   5, Dir=L-, Clt=4.17789e+00, Hc=   0
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   0	Pos=   5, hw=0.00000e+00, Dep=   5, Arr=   5, Dir=L-, Clt=4.17789e+00, Hc=   0
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   0	Pos=   5, hw=0.00000e+00, Dep=   5, Arr=   5, Dir=L-, Clt=4.17789e+00, Hc=   0
+ NowState :   Stat: 24.TONP, NowState :   Stat: 25.TONB, itv      : 0.000000	 Cycle=   0	Pos=   5, hw=0.00000e+00, Dep=   5, Arr=   5, Dir=L-, Clt=4.17789e+00, Hc=   0
+ NowState :   Stat: 25.TONB, NowState :   Stat: 26.TONM, itv      : 0.000000	 Cycle=   0	Pos=   5, hw=0.00000e+00, Dep=   5, Arr=   5, Dir=L-, Clt=4.17789e+00, Hc=   0
+ NowState :   Stat: 26.TONM, NowState :   Stat: 27.TONC, itv      : 0.800000	 Cycle=   0	Pos=   5, hw=0.00000e+00, Dep=   5, Arr=   5, Dir=L-, Clt=4.97789e+00, Hc=   1
+ NowState :   Stat: 27.TONC, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   0	Pos=   5, hw=0.00000e+00, Dep=   5, Arr=   5, Dir=L-, Clt=4.97789e+00, Hc=   1
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   0	Pos=   5, hw=0.00000e+00, Dep=   5, Arr=   5, Dir=L-, Clt=6.82789e+00, Hc=   1
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   0	Pos=   5, hw=0.00000e+00, Dep=   5, Arr=   5, Dir=L-, Clt=8.67789e+00, Hc=   1
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   0	Pos=   5, hw=0.00000e+00, Dep=   5, Arr=   5, Dir=L-, Clt=8.67789e+00, Hc=   1
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   0	Pos=   5, hw=0.00000e+00, Dep=   5, Arr=   5, Dir=L-, Clt=8.67789e+00, Hc=   1
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   0	Pos=   5, hw=0.00000e+00, Dep=   5, Arr=   8, Dir=LU, Clt=8.67789e+00, Hc=   1
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.700000	 Cycle=   0	Pos=   5, hw=1.46375e+01, Dep=   5, Arr=   8, Dir=LU, Clt=1.03779e+01, Hc=   1
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.700000	 Cycle=   0	Pos=   5, hw=1.65500e+01, Dep=   5, Arr=   8, Dir=LU, Clt=1.20779e+01, Hc=   1
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 09.RCOB, itv      : 0.000000	 Cycle=   0	Pos=   5, hw=1.65500e+01, Dep=   5, Arr=   8, Dir=LU, Clt=1.20779e+01, Hc=   1
+ NowState :   Stat: 09.RCOB, NowState :   Stat: 10.RCOM, itv      : 1.542857	 Cycle=   0	Pos=   6, hw=1.92500e+01, Dep=   5, Arr=   8, Dir=UU, Clt=1.36207e+01, Hc=   1
+ NowState :   Stat: 10.RCOM, NowState :   Stat: 05.RTSR, itv      : 1.542857	 Cycle=   0	Pos=   7, hw=2.19500e+01, Dep=   5, Arr=   8, Dir=UU, Clt=1.51636e+01, Hc=   1
+ NowState :   Stat: 05.RTSR, NowState :   Stat: 11.RCOC, itv      : 0.000000	 Cycle=   0	Pos=   7, hw=2.19500e+01, Dep=   5, Arr=   8, Dir=UU, Clt=1.51636e+01, Hc=   1
+ NowState :   Stat: 11.RCOC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   0	Pos=   7, hw=2.19500e+01, Dep=   5, Arr=   8, Dir=UU, Clt=1.51636e+01, Hc=   1
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   0	Pos=   7, hw=2.38625e+01, Dep=   5, Arr=   8, Dir=UU, Clt=1.51636e+01, Hc=   1
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.400000	 Cycle=   0	Pos=   8, hw=2.45000e+01, Dep=   5, Arr=   8, Dir=UU, Clt=1.85636e+01, Hc=   1
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   5, Arr=   8, Dir=UU, Clt=1.85636e+01, Hc=   1
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   5, Arr=   8, Dir=UU, Clt=1.85636e+01, Hc=   1
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   5, Arr=   8, Dir=UU, Clt=1.85636e+01, Hc=   1
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   5, Arr=   8, Dir=UU, Clt=1.96136e+01, Hc=   1
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   5, Arr=   8, Dir=UU, Clt=2.06636e+01, Hc=   1
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   5, Arr=   8, Dir=UU, Clt=2.06636e+01, Hc=   1
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   5, Arr=   8, Dir=UU, Clt=2.06636e+01, Hc=   1
+ NowState :   Stat: 24.TONP, NowState :   Stat: 25.TONB, itv      : 0.000000	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   5, Arr=   8, Dir=UU, Clt=2.06636e+01, Hc=   1
+ NowState :   Stat: 25.TONB, NowState :   Stat: 26.TONM, itv      : 0.800000	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   5, Arr=   8, Dir=UU, Clt=2.14636e+01, Hc=   2
+ NowState :   Stat: 26.TONM, NowState :   Stat: 27.TONC, itv      : 0.800000	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   5, Arr=   8, Dir=UU, Clt=2.22636e+01, Hc=   3
+ NowState :   Stat: 27.TONC, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   5, Arr=   8, Dir=UU, Clt=2.22636e+01, Hc=   3
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   5, Arr=   8, Dir=UU, Clt=2.41136e+01, Hc=   3
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   5, Arr=   8, Dir=UU, Clt=2.59636e+01, Hc=   3
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   5, Arr=   8, Dir=UU, Clt=2.59636e+01, Hc=   3
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   5, Arr=   8, Dir=UU, Clt=2.59636e+01, Hc=   3
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   1	Pos=   8, hw=2.45000e+01, Dep=   8, Arr=   6, Dir=UD, Clt=2.59636e+01, Hc=   3
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.700000	 Cycle=   1	Pos=   7, hw=2.38625e+01, Dep=   8, Arr=   6, Dir=UD, Clt=2.76636e+01, Hc=   3
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.700000	 Cycle=   1	Pos=   7, hw=2.19500e+01, Dep=   8, Arr=   6, Dir=UD, Clt=2.93636e+01, Hc=   3
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 09.RCOB, itv      : 0.000000	 Cycle=   1	Pos=   7, hw=2.19500e+01, Dep=   8, Arr=   6, Dir=UD, Clt=2.93636e+01, Hc=   3
+ NowState :   Stat: 09.RCOB, NowState :   Stat: 10.RCOM, itv      : 0.542857	 Cycle=   1	Pos=   7, hw=2.10000e+01, Dep=   8, Arr=   6, Dir=UD, Clt=2.99065e+01, Hc=   3
+ NowState :   Stat: 10.RCOM, NowState :   Stat: 05.RTSR, itv      : 0.542857	 Cycle=   1	Pos=   6, hw=2.00500e+01, Dep=   8, Arr=   6, Dir=UD, Clt=3.04493e+01, Hc=   3
+ NowState :   Stat: 05.RTSR, NowState :   Stat: 11.RCOC, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=2.00500e+01, Dep=   8, Arr=   6, Dir=UD, Clt=3.04493e+01, Hc=   3
+ NowState :   Stat: 11.RCOC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=2.00500e+01, Dep=   8, Arr=   6, Dir=UD, Clt=3.04493e+01, Hc=   3
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.81375e+01, Dep=   8, Arr=   6, Dir=UD, Clt=3.04493e+01, Hc=   3
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.400000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   8, Arr=   6, Dir=UD, Clt=3.38493e+01, Hc=   3
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   8, Arr=   6, Dir=UD, Clt=3.38493e+01, Hc=   3
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   8, Arr=   6, Dir=UD, Clt=3.38493e+01, Hc=   3
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   8, Arr=   6, Dir=UD, Clt=3.38493e+01, Hc=   3
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   8, Arr=   6, Dir=UD, Clt=3.48993e+01, Hc=   3
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   8, Arr=   6, Dir=UD, Clt=3.59493e+01, Hc=   3
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   8, Arr=   6, Dir=UD, Clt=3.59493e+01, Hc=   3
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   8, Arr=   6, Dir=UD, Clt=3.59493e+01, Hc=   3
+ NowState :   Stat: 24.TONP, NowState :   Stat: 25.TONB, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   8, Arr=   6, Dir=UD, Clt=3.59493e+01, Hc=   3
+ NowState :   Stat: 25.TONB, NowState :   Stat: 26.TONM, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   8, Arr=   6, Dir=UD, Clt=3.59493e+01, Hc=   3
+ NowState :   Stat: 26.TONM, NowState :   Stat: 27.TONC, itv      : 0.800000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   8, Arr=   6, Dir=UD, Clt=3.67493e+01, Hc=   4
+ NowState :   Stat: 27.TONC, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   8, Arr=   6, Dir=UD, Clt=3.67493e+01, Hc=   4
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   8, Arr=   6, Dir=UD, Clt=3.85993e+01, Hc=   4
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   8, Arr=   6, Dir=UD, Clt=4.04493e+01, Hc=   4
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   8, Arr=   6, Dir=UD, Clt=4.04493e+01, Hc=   4
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   8, Arr=   6, Dir=UD, Clt=4.04493e+01, Hc=   4
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   1	Pos=   6, hw=1.75000e+01, Dep=   6, Arr=   1, Dir=UD, Clt=4.04493e+01, Hc=   4
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.700000	 Cycle=   1	Pos=   5, hw=1.68625e+01, Dep=   6, Arr=   1, Dir=LD, Clt=4.21493e+01, Hc=   4
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.700000	 Cycle=   1	Pos=   5, hw=1.49500e+01, Dep=   6, Arr=   1, Dir=LD, Clt=4.38493e+01, Hc=   4
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 09.RCOB, itv      : 0.000000	 Cycle=   1	Pos=   5, hw=1.49500e+01, Dep=   6, Arr=   1, Dir=LD, Clt=4.38493e+01, Hc=   4
+ NowState :   Stat: 09.RCOB, NowState :   Stat: 10.RCOM, itv      : 3.542857	 Cycle=   1	Pos=   3, hw=8.75000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=4.73922e+01, Hc=   4
+ NowState :   Stat: 10.RCOM, NowState :   Stat: 05.RTSR, itv      : 3.542857	 Cycle=   1	Pos=   1, hw=2.55000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=5.09350e+01, Hc=   4
+ NowState :   Stat: 05.RTSR, NowState :   Stat: 11.RCOC, itv      : 0.000000	 Cycle=   1	Pos=   1, hw=2.55000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=5.09350e+01, Hc=   4
+ NowState :   Stat: 11.RCOC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   1	Pos=   1, hw=2.55000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=5.09350e+01, Hc=   4
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   1	Pos=   1, hw=6.37500e-01, Dep=   6, Arr=   1, Dir=LD, Clt=5.09350e+01, Hc=   4
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.400000	 Cycle=   1	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=5.43350e+01, Hc=   4
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=5.43350e+01, Hc=   4
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=5.43350e+01, Hc=   4
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=5.43350e+01, Hc=   4
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=5.53850e+01, Hc=   4
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=5.64350e+01, Hc=   4
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=5.64350e+01, Hc=   4
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 21.TOFB, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=5.64350e+01, Hc=   4
+ NowState :   Stat: 21.TOFB, NowState :   Stat: 22.TOFM, itv      : 1.600000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=5.80350e+01, Hc=   2
+ NowState :   Stat: 22.TOFM, NowState :   Stat: 23.TOFC, itv      : 1.600000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=5.96350e+01, Hc=   0
+ NowState :   Stat: 23.TOFC, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=5.96350e+01, Hc=   0
+ NowState :   Stat: 24.TONP, NowState :   Stat: 25.TONB, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=5.96350e+01, Hc=   0
+ NowState :   Stat: 25.TONB, NowState :   Stat: 26.TONM, itv      : 2.400000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=6.20350e+01, Hc=   3
+ NowState :   Stat: 26.TONM, NowState :   Stat: 27.TONC, itv      : 4.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=6.60350e+01, Hc=   8
+ NowState :   Stat: 27.TONC, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=6.60350e+01, Hc=   8
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=6.78850e+01, Hc=   8
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=6.97350e+01, Hc=   8
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=6.97350e+01, Hc=   8
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   6, Arr=   1, Dir=LD, Clt=6.97350e+01, Hc=   8
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=6.97350e+01, Hc=   8
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=6.97350e+01, Hc=   8
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=6.97350e+01, Hc=   8
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=7.07850e+01, Hc=   8
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=7.18350e+01, Hc=   8
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=7.18350e+01, Hc=   8
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=7.18350e+01, Hc=   8
+ NowState :   Stat: 24.TONP, NowState :   Stat: 25.TONB, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=7.18350e+01, Hc=   8
+ NowState :   Stat: 25.TONB, NowState :   Stat: 26.TONM, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=7.18350e+01, Hc=   8
+ NowState :   Stat: 26.TONM, NowState :   Stat: 27.TONC, itv      : 0.800000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=7.26350e+01, Hc=   9
+ NowState :   Stat: 27.TONC, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=7.26350e+01, Hc=   9
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=7.44850e+01, Hc=   9
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=7.63350e+01, Hc=   9
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=7.63350e+01, Hc=   9
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=7.63350e+01, Hc=   9
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=7.63350e+01, Hc=   9
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.700000	 Cycle=   2	Pos=   1, hw=6.37500e-01, Dep=   1, Arr=   3, Dir=LU, Clt=7.80350e+01, Hc=   9
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.700000	 Cycle=   2	Pos=   1, hw=2.55000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=7.97350e+01, Hc=   9
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 09.RCOB, itv      : 0.000000	 Cycle=   2	Pos=   1, hw=2.55000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=7.97350e+01, Hc=   9
+ NowState :   Stat: 09.RCOB, NowState :   Stat: 10.RCOM, itv      : 0.542857	 Cycle=   2	Pos=   2, hw=3.50000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=8.02779e+01, Hc=   9
+ NowState :   Stat: 10.RCOM, NowState :   Stat: 05.RTSR, itv      : 0.542857	 Cycle=   2	Pos=   2, hw=4.45000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=8.08207e+01, Hc=   9
+ NowState :   Stat: 05.RTSR, NowState :   Stat: 11.RCOC, itv      : 0.000000	 Cycle=   2	Pos=   2, hw=4.45000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=8.08207e+01, Hc=   9
+ NowState :   Stat: 11.RCOC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   2	Pos=   2, hw=4.45000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=8.08207e+01, Hc=   9
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   2	Pos=   2, hw=6.36250e+00, Dep=   1, Arr=   3, Dir=LU, Clt=8.08207e+01, Hc=   9
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.400000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=8.42207e+01, Hc=   9
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=8.42207e+01, Hc=   9
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=8.42207e+01, Hc=   9
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=8.42207e+01, Hc=   9
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=8.52707e+01, Hc=   9
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=8.63207e+01, Hc=   9
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=8.63207e+01, Hc=   9
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 21.TOFB, itv      : 0.000000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=8.63207e+01, Hc=   9
+ NowState :   Stat: 21.TOFB, NowState :   Stat: 22.TOFM, itv      : 0.800000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=8.71207e+01, Hc=   8
+ NowState :   Stat: 22.TOFM, NowState :   Stat: 23.TOFC, itv      : 1.600000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=8.87207e+01, Hc=   6
+ NowState :   Stat: 23.TOFC, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=8.87207e+01, Hc=   6
+ NowState :   Stat: 24.TONP, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=8.87207e+01, Hc=   6
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=9.05707e+01, Hc=   6
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=9.24207e+01, Hc=   6
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=9.24207e+01, Hc=   6
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   1, Arr=   3, Dir=LU, Clt=9.24207e+01, Hc=   6
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   2	Pos=   3, hw=7.00000e+00, Dep=   3, Arr=   6, Dir=LU, Clt=9.24207e+01, Hc=   6
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.700000	 Cycle=   2	Pos=   3, hw=7.63750e+00, Dep=   3, Arr=   6, Dir=LU, Clt=9.41207e+01, Hc=   6
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.700000	 Cycle=   2	Pos=   3, hw=9.55000e+00, Dep=   3, Arr=   6, Dir=LU, Clt=9.58207e+01, Hc=   6
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 09.RCOB, itv      : 0.000000	 Cycle=   2	Pos=   3, hw=9.55000e+00, Dep=   3, Arr=   6, Dir=LU, Clt=9.58207e+01, Hc=   6
+ NowState :   Stat: 09.RCOB, NowState :   Stat: 10.RCOM, itv      : 1.542857	 Cycle=   2	Pos=   4, hw=1.22500e+01, Dep=   3, Arr=   6, Dir=LU, Clt=9.73636e+01, Hc=   6
+ NowState :   Stat: 10.RCOM, NowState :   Stat: 05.RTSR, itv      : 1.542857	 Cycle=   2	Pos=   5, hw=1.49500e+01, Dep=   3, Arr=   6, Dir=LU, Clt=9.89065e+01, Hc=   6
+ NowState :   Stat: 05.RTSR, NowState :   Stat: 11.RCOC, itv      : 0.000000	 Cycle=   2	Pos=   5, hw=1.49500e+01, Dep=   3, Arr=   6, Dir=LU, Clt=9.89065e+01, Hc=   6
+ NowState :   Stat: 11.RCOC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   2	Pos=   5, hw=1.49500e+01, Dep=   3, Arr=   6, Dir=LU, Clt=9.89065e+01, Hc=   6
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   2	Pos=   5, hw=1.68625e+01, Dep=   3, Arr=   6, Dir=LU, Clt=9.89065e+01, Hc=   6
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.400000	 Cycle=   2	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=1.02306e+02, Hc=   6
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   3	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=1.02306e+02, Hc=   6
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   3	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=1.02306e+02, Hc=   6
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   3	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=1.02306e+02, Hc=   6
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   3	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=1.03356e+02, Hc=   6
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   3	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=1.04406e+02, Hc=   6
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   3	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=1.04406e+02, Hc=   6
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 21.TOFB, itv      : 0.000000	 Cycle=   3	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=1.04406e+02, Hc=   6
+ NowState :   Stat: 21.TOFB, NowState :   Stat: 22.TOFM, itv      : 1.600000	 Cycle=   3	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=1.06006e+02, Hc=   4
+ NowState :   Stat: 22.TOFM, NowState :   Stat: 23.TOFC, itv      : 1.600000	 Cycle=   3	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=1.07606e+02, Hc=   2
+ NowState :   Stat: 23.TOFC, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   3	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=1.07606e+02, Hc=   2
+ NowState :   Stat: 24.TONP, NowState :   Stat: 25.TONB, itv      : 0.000000	 Cycle=   3	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=1.07606e+02, Hc=   2
+ NowState :   Stat: 25.TONB, NowState :   Stat: 26.TONM, itv      : 0.000000	 Cycle=   3	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=1.07606e+02, Hc=   2
+ NowState :   Stat: 26.TONM, NowState :   Stat: 27.TONC, itv      : 0.800000	 Cycle=   3	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=1.08406e+02, Hc=   3
+ NowState :   Stat: 27.TONC, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   3	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=1.08406e+02, Hc=   3
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   3	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=1.10256e+02, Hc=   3
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   3	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=1.12106e+02, Hc=   3
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   3	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=1.12106e+02, Hc=   3
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   3	Pos=   6, hw=1.75000e+01, Dep=   3, Arr=   6, Dir=UU, Clt=1.12106e+02, Hc=   3
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   3	Pos=   6, hw=1.75000e+01, Dep=   6, Arr=   7, Dir=UU, Clt=1.12106e+02, Hc=   3
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.692817	 Cycle=   3	Pos=   6, hw=1.79375e+01, Dep=   6, Arr=   7, Dir=UU, Clt=1.13799e+02, Hc=   3
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.692817	 Cycle=   3	Pos=   6, hw=1.92500e+01, Dep=   6, Arr=   7, Dir=UU, Clt=1.15492e+02, Hc=   3
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   3	Pos=   6, hw=1.92500e+01, Dep=   6, Arr=   7, Dir=UU, Clt=1.15492e+02, Hc=   3
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   3	Pos=   6, hw=2.05625e+01, Dep=   6, Arr=   7, Dir=UU, Clt=1.15492e+02, Hc=   3
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.385633	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   6, Arr=   7, Dir=UU, Clt=1.18878e+02, Hc=   3
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   6, Arr=   7, Dir=UU, Clt=1.18878e+02, Hc=   3
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   6, Arr=   7, Dir=UU, Clt=1.18878e+02, Hc=   3
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   6, Arr=   7, Dir=UU, Clt=1.18878e+02, Hc=   3
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   6, Arr=   7, Dir=UU, Clt=1.19928e+02, Hc=   3
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   6, Arr=   7, Dir=UU, Clt=1.20978e+02, Hc=   3
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   6, Arr=   7, Dir=UU, Clt=1.20978e+02, Hc=   3
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   6, Arr=   7, Dir=UU, Clt=1.20978e+02, Hc=   3
+ NowState :   Stat: 24.TONP, NowState :   Stat: 25.TONB, itv      : 0.000000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   6, Arr=   7, Dir=UU, Clt=1.20978e+02, Hc=   3
+ NowState :   Stat: 25.TONB, NowState :   Stat: 26.TONM, itv      : 0.800000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   6, Arr=   7, Dir=UU, Clt=1.21778e+02, Hc=   4
+ NowState :   Stat: 26.TONM, NowState :   Stat: 27.TONC, itv      : 0.800000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   6, Arr=   7, Dir=UU, Clt=1.22578e+02, Hc=   5
+ NowState :   Stat: 27.TONC, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   6, Arr=   7, Dir=UU, Clt=1.22578e+02, Hc=   5
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   6, Arr=   7, Dir=UU, Clt=1.24428e+02, Hc=   5
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   6, Arr=   7, Dir=UU, Clt=1.26278e+02, Hc=   5
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   6, Arr=   7, Dir=UU, Clt=1.26278e+02, Hc=   5
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   6, Arr=   7, Dir=UU, Clt=1.26278e+02, Hc=   5
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   3	Pos=   7, hw=2.10000e+01, Dep=   7, Arr=   9, Dir=UU, Clt=1.26278e+02, Hc=   5
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.700000	 Cycle=   3	Pos=   7, hw=2.16375e+01, Dep=   7, Arr=   9, Dir=UU, Clt=1.27978e+02, Hc=   5
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.700000	 Cycle=   3	Pos=   7, hw=2.35500e+01, Dep=   7, Arr=   9, Dir=UU, Clt=1.29678e+02, Hc=   5
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 09.RCOB, itv      : 0.000000	 Cycle=   3	Pos=   7, hw=2.35500e+01, Dep=   7, Arr=   9, Dir=UU, Clt=1.29678e+02, Hc=   5
+ NowState :   Stat: 09.RCOB, NowState :   Stat: 10.RCOM, itv      : 0.542857	 Cycle=   3	Pos=   8, hw=2.45000e+01, Dep=   7, Arr=   9, Dir=UU, Clt=1.30221e+02, Hc=   5
+ NowState :   Stat: 10.RCOM, NowState :   Stat: 05.RTSR, itv      : 0.542857	 Cycle=   3	Pos=   8, hw=2.54500e+01, Dep=   7, Arr=   9, Dir=UU, Clt=1.30763e+02, Hc=   5
+ NowState :   Stat: 05.RTSR, NowState :   Stat: 11.RCOC, itv      : 0.000000	 Cycle=   3	Pos=   8, hw=2.54500e+01, Dep=   7, Arr=   9, Dir=UU, Clt=1.30763e+02, Hc=   5
+ NowState :   Stat: 11.RCOC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   3	Pos=   8, hw=2.54500e+01, Dep=   7, Arr=   9, Dir=UU, Clt=1.30763e+02, Hc=   5
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   3	Pos=   8, hw=2.73625e+01, Dep=   7, Arr=   9, Dir=UU, Clt=1.30763e+02, Hc=   5
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.400000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=   7, Arr=   9, Dir=UU, Clt=1.34163e+02, Hc=   5
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=   7, Arr=   9, Dir=UU, Clt=1.34163e+02, Hc=   5
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=   7, Arr=   9, Dir=UU, Clt=1.34163e+02, Hc=   5
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=   7, Arr=   9, Dir=UU, Clt=1.34163e+02, Hc=   5
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=   7, Arr=   9, Dir=UU, Clt=1.35213e+02, Hc=   5
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=   7, Arr=   9, Dir=UU, Clt=1.36263e+02, Hc=   5
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=   7, Arr=   9, Dir=UU, Clt=1.36263e+02, Hc=   5
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 21.TOFB, itv      : 0.000000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=   7, Arr=   9, Dir=UU, Clt=1.36263e+02, Hc=   5
+ NowState :   Stat: 21.TOFB, NowState :   Stat: 22.TOFM, itv      : 0.000000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=   7, Arr=   9, Dir=UU, Clt=1.36263e+02, Hc=   5
+ NowState :   Stat: 22.TOFM, NowState :   Stat: 23.TOFC, itv      : 0.800000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=   7, Arr=   9, Dir=UU, Clt=1.37063e+02, Hc=   4
+ NowState :   Stat: 23.TOFC, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=   7, Arr=   9, Dir=UU, Clt=1.37063e+02, Hc=   4
+ NowState :   Stat: 24.TONP, NowState :   Stat: 25.TONB, itv      : 0.000000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=   7, Arr=   9, Dir=UU, Clt=1.37063e+02, Hc=   4
+ NowState :   Stat: 25.TONB, NowState :   Stat: 26.TONM, itv      : 0.000000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=   7, Arr=   9, Dir=UU, Clt=1.37063e+02, Hc=   4
+ NowState :   Stat: 26.TONM, NowState :   Stat: 27.TONC, itv      : 0.800000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=   7, Arr=   9, Dir=UU, Clt=1.37863e+02, Hc=   5
+ NowState :   Stat: 27.TONC, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=   7, Arr=   9, Dir=UU, Clt=1.37863e+02, Hc=   5
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=   7, Arr=   9, Dir=UU, Clt=1.39713e+02, Hc=   5
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=   7, Arr=   9, Dir=UU, Clt=1.41563e+02, Hc=   5
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=   7, Arr=   9, Dir=UU, Clt=1.41563e+02, Hc=   5
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=   7, Arr=   9, Dir=UU, Clt=1.41563e+02, Hc=   5
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   3	Pos=   9, hw=2.80000e+01, Dep=   9, Arr=  10, Dir=UU, Clt=1.41563e+02, Hc=   5
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.692817	 Cycle=   3	Pos=   9, hw=2.84375e+01, Dep=   9, Arr=  10, Dir=UU, Clt=1.43256e+02, Hc=   5
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.692817	 Cycle=   3	Pos=   9, hw=2.97500e+01, Dep=   9, Arr=  10, Dir=UU, Clt=1.44949e+02, Hc=   5
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   3	Pos=   9, hw=2.97500e+01, Dep=   9, Arr=  10, Dir=UU, Clt=1.44949e+02, Hc=   5
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   3	Pos=   9, hw=3.10625e+01, Dep=   9, Arr=  10, Dir=UU, Clt=1.44949e+02, Hc=   5
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.385633	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=   9, Arr=  10, Dir=UU, Clt=1.48335e+02, Hc=   5
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=   9, Arr=  10, Dir=UU, Clt=1.48335e+02, Hc=   5
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=   9, Arr=  10, Dir=UU, Clt=1.48335e+02, Hc=   5
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=   9, Arr=  10, Dir=UU, Clt=1.48335e+02, Hc=   5
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=   9, Arr=  10, Dir=UU, Clt=1.49385e+02, Hc=   5
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=   9, Arr=  10, Dir=UU, Clt=1.50435e+02, Hc=   5
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=   9, Arr=  10, Dir=UU, Clt=1.50435e+02, Hc=   5
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 21.TOFB, itv      : 0.000000	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=   9, Arr=  10, Dir=UU, Clt=1.50435e+02, Hc=   5
+ NowState :   Stat: 21.TOFB, NowState :   Stat: 22.TOFM, itv      : 0.000000	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=   9, Arr=  10, Dir=UU, Clt=1.50435e+02, Hc=   5
+ NowState :   Stat: 22.TOFM, NowState :   Stat: 23.TOFC, itv      : 0.800000	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=   9, Arr=  10, Dir=UU, Clt=1.51235e+02, Hc=   4
+ NowState :   Stat: 23.TOFC, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=   9, Arr=  10, Dir=UU, Clt=1.51235e+02, Hc=   4
+ NowState :   Stat: 24.TONP, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=   9, Arr=  10, Dir=UU, Clt=1.51235e+02, Hc=   4
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=   9, Arr=  10, Dir=UU, Clt=1.53085e+02, Hc=   4
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=   9, Arr=  10, Dir=UU, Clt=1.54935e+02, Hc=   4
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=   9, Arr=  10, Dir=UU, Clt=1.54935e+02, Hc=   4
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=   9, Arr=  10, Dir=UU, Clt=1.54935e+02, Hc=   4
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   3	Pos=  10, hw=3.15000e+01, Dep=  10, Arr=   5, Dir=UD, Clt=1.54935e+02, Hc=   4
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.700000	 Cycle=   3	Pos=   9, hw=3.08625e+01, Dep=  10, Arr=   5, Dir=UD, Clt=1.56635e+02, Hc=   4
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.700000	 Cycle=   3	Pos=   9, hw=2.89500e+01, Dep=  10, Arr=   5, Dir=UD, Clt=1.58335e+02, Hc=   4
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 09.RCOB, itv      : 0.000000	 Cycle=   3	Pos=   9, hw=2.89500e+01, Dep=  10, Arr=   5, Dir=UD, Clt=1.58335e+02, Hc=   4
+ NowState :   Stat: 09.RCOB, NowState :   Stat: 10.RCOM, itv      : 3.542857	 Cycle=   3	Pos=   7, hw=2.27500e+01, Dep=  10, Arr=   5, Dir=UD, Clt=1.61878e+02, Hc=   4
+ NowState :   Stat: 10.RCOM, NowState :   Stat: 05.RTSR, itv      : 3.542857	 Cycle=   3	Pos=   5, hw=1.65500e+01, Dep=  10, Arr=   5, Dir=LD, Clt=1.65420e+02, Hc=   4
+ NowState :   Stat: 05.RTSR, NowState :   Stat: 11.RCOC, itv      : 0.000000	 Cycle=   3	Pos=   5, hw=1.65500e+01, Dep=  10, Arr=   5, Dir=LD, Clt=1.65420e+02, Hc=   4
+ NowState :   Stat: 11.RCOC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   3	Pos=   5, hw=1.65500e+01, Dep=  10, Arr=   5, Dir=LD, Clt=1.65420e+02, Hc=   4
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   3	Pos=   5, hw=1.46375e+01, Dep=  10, Arr=   5, Dir=LD, Clt=1.65420e+02, Hc=   4
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.400000	 Cycle=   3	Pos=   5, hw=1.40000e+01, Dep=  10, Arr=   5, Dir=LD, Clt=1.68820e+02, Hc=   4
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=  10, Arr=   5, Dir=LD, Clt=1.68820e+02, Hc=   4
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=  10, Arr=   5, Dir=LD, Clt=1.68820e+02, Hc=   4
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=  10, Arr=   5, Dir=LD, Clt=1.68820e+02, Hc=   4
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=  10, Arr=   5, Dir=LD, Clt=1.69870e+02, Hc=   4
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=  10, Arr=   5, Dir=LD, Clt=1.70920e+02, Hc=   4
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=  10, Arr=   5, Dir=LD, Clt=1.70920e+02, Hc=   4
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=  10, Arr=   5, Dir=LD, Clt=1.70920e+02, Hc=   4
+ NowState :   Stat: 24.TONP, NowState :   Stat: 25.TONB, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=  10, Arr=   5, Dir=LD, Clt=1.70920e+02, Hc=   4
+ NowState :   Stat: 25.TONB, NowState :   Stat: 26.TONM, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=  10, Arr=   5, Dir=LD, Clt=1.70920e+02, Hc=   4
+ NowState :   Stat: 26.TONM, NowState :   Stat: 27.TONC, itv      : 0.800000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=  10, Arr=   5, Dir=LD, Clt=1.71720e+02, Hc=   5
+ NowState :   Stat: 27.TONC, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=  10, Arr=   5, Dir=LD, Clt=1.71720e+02, Hc=   5
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=  10, Arr=   5, Dir=LD, Clt=1.73570e+02, Hc=   5
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=  10, Arr=   5, Dir=LD, Clt=1.75420e+02, Hc=   5
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=  10, Arr=   5, Dir=LD, Clt=1.75420e+02, Hc=   5
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=  10, Arr=   5, Dir=LD, Clt=1.75420e+02, Hc=   5
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   5, Arr=   2, Dir=LD, Clt=1.75420e+02, Hc=   5
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.700000	 Cycle=   4	Pos=   4, hw=1.33625e+01, Dep=   5, Arr=   2, Dir=LD, Clt=1.77120e+02, Hc=   5
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.700000	 Cycle=   4	Pos=   4, hw=1.14500e+01, Dep=   5, Arr=   2, Dir=LD, Clt=1.78820e+02, Hc=   5
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 09.RCOB, itv      : 0.000000	 Cycle=   4	Pos=   4, hw=1.14500e+01, Dep=   5, Arr=   2, Dir=LD, Clt=1.78820e+02, Hc=   5
+ NowState :   Stat: 09.RCOB, NowState :   Stat: 10.RCOM, itv      : 1.542857	 Cycle=   4	Pos=   3, hw=8.75000e+00, Dep=   5, Arr=   2, Dir=LD, Clt=1.80363e+02, Hc=   5
+ NowState :   Stat: 10.RCOM, NowState :   Stat: 05.RTSR, itv      : 1.542857	 Cycle=   4	Pos=   2, hw=6.05000e+00, Dep=   5, Arr=   2, Dir=LD, Clt=1.81906e+02, Hc=   5
+ NowState :   Stat: 05.RTSR, NowState :   Stat: 11.RCOC, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=6.05000e+00, Dep=   5, Arr=   2, Dir=LD, Clt=1.81906e+02, Hc=   5
+ NowState :   Stat: 11.RCOC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=6.05000e+00, Dep=   5, Arr=   2, Dir=LD, Clt=1.81906e+02, Hc=   5
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=4.13750e+00, Dep=   5, Arr=   2, Dir=LD, Clt=1.81906e+02, Hc=   5
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.400000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   5, Arr=   2, Dir=LD, Clt=1.85306e+02, Hc=   5
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   5, Arr=   2, Dir=LD, Clt=1.85306e+02, Hc=   5
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   5, Arr=   2, Dir=LD, Clt=1.85306e+02, Hc=   5
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   5, Arr=   2, Dir=LD, Clt=1.85306e+02, Hc=   5
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   5, Arr=   2, Dir=LD, Clt=1.86356e+02, Hc=   5
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   5, Arr=   2, Dir=LD, Clt=1.87406e+02, Hc=   5
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   5, Arr=   2, Dir=LD, Clt=1.87406e+02, Hc=   5
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   5, Arr=   2, Dir=LD, Clt=1.87406e+02, Hc=   5
+ NowState :   Stat: 24.TONP, NowState :   Stat: 25.TONB, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   5, Arr=   2, Dir=LD, Clt=1.87406e+02, Hc=   5
+ NowState :   Stat: 25.TONB, NowState :   Stat: 26.TONM, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   5, Arr=   2, Dir=LD, Clt=1.87406e+02, Hc=   5
+ NowState :   Stat: 26.TONM, NowState :   Stat: 27.TONC, itv      : 0.800000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   5, Arr=   2, Dir=LD, Clt=1.88206e+02, Hc=   6
+ NowState :   Stat: 27.TONC, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   5, Arr=   2, Dir=LD, Clt=1.88206e+02, Hc=   6
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   5, Arr=   2, Dir=LD, Clt=1.90056e+02, Hc=   6
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   5, Arr=   2, Dir=LD, Clt=1.91906e+02, Hc=   6
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   5, Arr=   2, Dir=LD, Clt=1.91906e+02, Hc=   6
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   5, Arr=   2, Dir=LD, Clt=1.91906e+02, Hc=   6
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   2, Arr=   1, Dir=LD, Clt=1.91906e+02, Hc=   6
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.692817	 Cycle=   4	Pos=   1, hw=3.06250e+00, Dep=   2, Arr=   1, Dir=LD, Clt=1.93599e+02, Hc=   6
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.692817	 Cycle=   4	Pos=   1, hw=1.75000e+00, Dep=   2, Arr=   1, Dir=LD, Clt=1.95292e+02, Hc=   6
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=1.75000e+00, Dep=   2, Arr=   1, Dir=LD, Clt=1.95292e+02, Hc=   6
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=4.37500e-01, Dep=   2, Arr=   1, Dir=LD, Clt=1.95292e+02, Hc=   6
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.385633	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   2, Arr=   1, Dir=LD, Clt=1.98677e+02, Hc=   6
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   2, Arr=   1, Dir=LD, Clt=1.98677e+02, Hc=   6
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   2, Arr=   1, Dir=LD, Clt=1.98677e+02, Hc=   6
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   2, Arr=   1, Dir=LD, Clt=1.98677e+02, Hc=   6
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   2, Arr=   1, Dir=LD, Clt=1.99727e+02, Hc=   6
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   2, Arr=   1, Dir=LD, Clt=2.00777e+02, Hc=   6
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   2, Arr=   1, Dir=LD, Clt=2.00777e+02, Hc=   6
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 21.TOFB, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   2, Arr=   1, Dir=LD, Clt=2.00777e+02, Hc=   6
+ NowState :   Stat: 21.TOFB, NowState :   Stat: 22.TOFM, itv      : 2.400000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   2, Arr=   1, Dir=LD, Clt=2.03177e+02, Hc=   3
+ NowState :   Stat: 22.TOFM, NowState :   Stat: 23.TOFC, itv      : 2.400000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   2, Arr=   1, Dir=LD, Clt=2.05577e+02, Hc=   0
+ NowState :   Stat: 23.TOFC, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   2, Arr=   1, Dir=LD, Clt=2.05577e+02, Hc=   0
+ NowState :   Stat: 24.TONP, NowState :   Stat: 25.TONB, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   2, Arr=   1, Dir=LD, Clt=2.05577e+02, Hc=   0
+ NowState :   Stat: 25.TONB, NowState :   Stat: 26.TONM, itv      : 1.600000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   2, Arr=   1, Dir=LD, Clt=2.07177e+02, Hc=   2
+ NowState :   Stat: 26.TONM, NowState :   Stat: 27.TONC, itv      : 1.600000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   2, Arr=   1, Dir=LD, Clt=2.08777e+02, Hc=   4
+ NowState :   Stat: 27.TONC, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   2, Arr=   1, Dir=LD, Clt=2.08777e+02, Hc=   4
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   2, Arr=   1, Dir=LD, Clt=2.10627e+02, Hc=   4
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   2, Arr=   1, Dir=LD, Clt=2.12477e+02, Hc=   4
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   2, Arr=   1, Dir=LD, Clt=2.12477e+02, Hc=   4
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   2, Arr=   1, Dir=LD, Clt=2.12477e+02, Hc=   4
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=2.12477e+02, Hc=   4
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=2.12477e+02, Hc=   4
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=2.12477e+02, Hc=   4
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=2.13527e+02, Hc=   4
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=2.14577e+02, Hc=   4
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=2.14577e+02, Hc=   4
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=2.14577e+02, Hc=   4
+ NowState :   Stat: 24.TONP, NowState :   Stat: 25.TONB, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=2.14577e+02, Hc=   4
+ NowState :   Stat: 25.TONB, NowState :   Stat: 26.TONM, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=2.14577e+02, Hc=   4
+ NowState :   Stat: 26.TONM, NowState :   Stat: 27.TONC, itv      : 0.800000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=2.15377e+02, Hc=   5
+ NowState :   Stat: 27.TONC, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=2.15377e+02, Hc=   5
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=2.17227e+02, Hc=   5
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=2.19077e+02, Hc=   5
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=2.19077e+02, Hc=   5
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   1, Dir=L-, Clt=2.19077e+02, Hc=   5
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   2, Dir=LU, Clt=2.19077e+02, Hc=   5
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.692817	 Cycle=   4	Pos=   1, hw=4.37500e-01, Dep=   1, Arr=   2, Dir=LU, Clt=2.20770e+02, Hc=   5
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.692817	 Cycle=   4	Pos=   1, hw=1.75000e+00, Dep=   1, Arr=   2, Dir=LU, Clt=2.22463e+02, Hc=   5
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=1.75000e+00, Dep=   1, Arr=   2, Dir=LU, Clt=2.22463e+02, Hc=   5
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=3.06250e+00, Dep=   1, Arr=   2, Dir=LU, Clt=2.22463e+02, Hc=   5
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.385633	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   1, Arr=   2, Dir=LU, Clt=2.25849e+02, Hc=   5
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   1, Arr=   2, Dir=LU, Clt=2.25849e+02, Hc=   5
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   1, Arr=   2, Dir=LU, Clt=2.25849e+02, Hc=   5
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   1, Arr=   2, Dir=LU, Clt=2.25849e+02, Hc=   5
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   1, Arr=   2, Dir=LU, Clt=2.26899e+02, Hc=   5
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   1, Arr=   2, Dir=LU, Clt=2.27949e+02, Hc=   5
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   1, Arr=   2, Dir=LU, Clt=2.27949e+02, Hc=   5
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 21.TOFB, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   1, Arr=   2, Dir=LU, Clt=2.27949e+02, Hc=   5
+ NowState :   Stat: 21.TOFB, NowState :   Stat: 22.TOFM, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   1, Arr=   2, Dir=LU, Clt=2.27949e+02, Hc=   5
+ NowState :   Stat: 22.TOFM, NowState :   Stat: 23.TOFC, itv      : 0.800000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   1, Arr=   2, Dir=LU, Clt=2.28749e+02, Hc=   4
+ NowState :   Stat: 23.TOFC, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   1, Arr=   2, Dir=LU, Clt=2.28749e+02, Hc=   4
+ NowState :   Stat: 24.TONP, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   1, Arr=   2, Dir=LU, Clt=2.28749e+02, Hc=   4
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   1, Arr=   2, Dir=LU, Clt=2.30599e+02, Hc=   4
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   1, Arr=   2, Dir=LU, Clt=2.32449e+02, Hc=   4
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   1, Arr=   2, Dir=LU, Clt=2.32449e+02, Hc=   4
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   1, Arr=   2, Dir=LU, Clt=2.32449e+02, Hc=   4
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=3.50000e+00, Dep=   2, Arr=   3, Dir=LU, Clt=2.32449e+02, Hc=   4
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.692817	 Cycle=   4	Pos=   2, hw=3.93750e+00, Dep=   2, Arr=   3, Dir=LU, Clt=2.34141e+02, Hc=   4
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.692817	 Cycle=   4	Pos=   2, hw=5.25000e+00, Dep=   2, Arr=   3, Dir=LU, Clt=2.35834e+02, Hc=   4
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=5.25000e+00, Dep=   2, Arr=   3, Dir=LU, Clt=2.35834e+02, Hc=   4
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   4	Pos=   2, hw=6.56250e+00, Dep=   2, Arr=   3, Dir=LU, Clt=2.35834e+02, Hc=   4
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.385633	 Cycle=   4	Pos=   3, hw=7.00000e+00, Dep=   2, Arr=   3, Dir=LU, Clt=2.39220e+02, Hc=   4
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   4	Pos=   3, hw=7.00000e+00, Dep=   2, Arr=   3, Dir=LU, Clt=2.39220e+02, Hc=   4
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   4	Pos=   3, hw=7.00000e+00, Dep=   2, Arr=   3, Dir=LU, Clt=2.39220e+02, Hc=   4
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   4	Pos=   3, hw=7.00000e+00, Dep=   2, Arr=   3, Dir=LU, Clt=2.39220e+02, Hc=   4
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   4	Pos=   3, hw=7.00000e+00, Dep=   2, Arr=   3, Dir=LU, Clt=2.40270e+02, Hc=   4
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   4	Pos=   3, hw=7.00000e+00, Dep=   2, Arr=   3, Dir=LU, Clt=2.41320e+02, Hc=   4
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   4	Pos=   3, hw=7.00000e+00, Dep=   2, Arr=   3, Dir=LU, Clt=2.41320e+02, Hc=   4
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 21.TOFB, itv      : 0.000000	 Cycle=   4	Pos=   3, hw=7.00000e+00, Dep=   2, Arr=   3, Dir=LU, Clt=2.41320e+02, Hc=   4
+ NowState :   Stat: 21.TOFB, NowState :   Stat: 22.TOFM, itv      : 0.000000	 Cycle=   4	Pos=   3, hw=7.00000e+00, Dep=   2, Arr=   3, Dir=LU, Clt=2.41320e+02, Hc=   4
+ NowState :   Stat: 22.TOFM, NowState :   Stat: 23.TOFC, itv      : 0.800000	 Cycle=   4	Pos=   3, hw=7.00000e+00, Dep=   2, Arr=   3, Dir=LU, Clt=2.42120e+02, Hc=   3
+ NowState :   Stat: 23.TOFC, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   4	Pos=   3, hw=7.00000e+00, Dep=   2, Arr=   3, Dir=LU, Clt=2.42120e+02, Hc=   3
+ NowState :   Stat: 24.TONP, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   4	Pos=   3, hw=7.00000e+00, Dep=   2, Arr=   3, Dir=LU, Clt=2.42120e+02, Hc=   3
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   4	Pos=   3, hw=7.00000e+00, Dep=   2, Arr=   3, Dir=LU, Clt=2.43970e+02, Hc=   3
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   4	Pos=   3, hw=7.00000e+00, Dep=   2, Arr=   3, Dir=LU, Clt=2.45820e+02, Hc=   3
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   4	Pos=   3, hw=7.00000e+00, Dep=   2, Arr=   3, Dir=LU, Clt=2.45820e+02, Hc=   3
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   4	Pos=   3, hw=7.00000e+00, Dep=   2, Arr=   3, Dir=LU, Clt=2.45820e+02, Hc=   3
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   4	Pos=   3, hw=7.00000e+00, Dep=   3, Arr=   4, Dir=LU, Clt=2.45820e+02, Hc=   3
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.692817	 Cycle=   4	Pos=   3, hw=7.43750e+00, Dep=   3, Arr=   4, Dir=LU, Clt=2.47513e+02, Hc=   3
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.692817	 Cycle=   4	Pos=   3, hw=8.75000e+00, Dep=   3, Arr=   4, Dir=LU, Clt=2.49206e+02, Hc=   3
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   4	Pos=   3, hw=8.75000e+00, Dep=   3, Arr=   4, Dir=LU, Clt=2.49206e+02, Hc=   3
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   4	Pos=   3, hw=1.00625e+01, Dep=   3, Arr=   4, Dir=LU, Clt=2.49206e+02, Hc=   3
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.385633	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=2.52591e+02, Hc=   3
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=2.52591e+02, Hc=   3
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=2.52591e+02, Hc=   3
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=2.52591e+02, Hc=   3
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=2.53641e+02, Hc=   3
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=2.54691e+02, Hc=   3
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=2.54691e+02, Hc=   3
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 21.TOFB, itv      : 0.000000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=2.54691e+02, Hc=   3
+ NowState :   Stat: 21.TOFB, NowState :   Stat: 22.TOFM, itv      : 0.000000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=2.54691e+02, Hc=   3
+ NowState :   Stat: 22.TOFM, NowState :   Stat: 23.TOFC, itv      : 0.800000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=2.55491e+02, Hc=   2
+ NowState :   Stat: 23.TOFC, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=2.55491e+02, Hc=   2
+ NowState :   Stat: 24.TONP, NowState :   Stat: 25.TONB, itv      : 0.000000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=2.55491e+02, Hc=   2
+ NowState :   Stat: 25.TONB, NowState :   Stat: 26.TONM, itv      : 0.000000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=2.55491e+02, Hc=   2
+ NowState :   Stat: 26.TONM, NowState :   Stat: 27.TONC, itv      : 0.800000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=2.56291e+02, Hc=   3
+ NowState :   Stat: 27.TONC, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=2.56291e+02, Hc=   3
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=2.58141e+02, Hc=   3
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=2.59991e+02, Hc=   3
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=2.59991e+02, Hc=   3
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   3, Arr=   4, Dir=LU, Clt=2.59991e+02, Hc=   3
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   4	Pos=   4, hw=1.05000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.59991e+02, Hc=   3
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.692817	 Cycle=   4	Pos=   4, hw=1.09375e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.61684e+02, Hc=   3
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.692817	 Cycle=   4	Pos=   4, hw=1.22500e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.63377e+02, Hc=   3
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   4	Pos=   4, hw=1.22500e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.63377e+02, Hc=   3
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   4	Pos=   4, hw=1.35625e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.63377e+02, Hc=   3
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.385633	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.66762e+02, Hc=   3
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.66762e+02, Hc=   3
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.66762e+02, Hc=   3
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.66762e+02, Hc=   3
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.67812e+02, Hc=   3
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.68862e+02, Hc=   3
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.68862e+02, Hc=   3
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 21.TOFB, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.68862e+02, Hc=   3
+ NowState :   Stat: 21.TOFB, NowState :   Stat: 22.TOFM, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.68862e+02, Hc=   3
+ NowState :   Stat: 22.TOFM, NowState :   Stat: 23.TOFC, itv      : 0.800000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.69662e+02, Hc=   2
+ NowState :   Stat: 23.TOFC, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.69662e+02, Hc=   2
+ NowState :   Stat: 24.TONP, NowState :   Stat: 25.TONB, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.69662e+02, Hc=   2
+ NowState :   Stat: 25.TONB, NowState :   Stat: 26.TONM, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.69662e+02, Hc=   2
+ NowState :   Stat: 26.TONM, NowState :   Stat: 27.TONC, itv      : 0.800000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.70462e+02, Hc=   3
+ NowState :   Stat: 27.TONC, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.70462e+02, Hc=   3
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.72312e+02, Hc=   3
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.74162e+02, Hc=   3
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.74162e+02, Hc=   3
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   4, Arr=   5, Dir=LU, Clt=2.74162e+02, Hc=   3
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   4	Pos=   5, hw=1.40000e+01, Dep=   5, Arr=   1, Dir=LD, Clt=2.74162e+02, Hc=   3
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.700000	 Cycle=   4	Pos=   4, hw=1.33625e+01, Dep=   5, Arr=   1, Dir=LD, Clt=2.75862e+02, Hc=   3
+ NowState :   Stat: 07.RSUM, NowState :   Stat: 08.RSUC, itv      : 1.700000	 Cycle=   4	Pos=   4, hw=1.14500e+01, Dep=   5, Arr=   1, Dir=LD, Clt=2.77562e+02, Hc=   3
+ NowState :   Stat: 08.RSUC, NowState :   Stat: 09.RCOB, itv      : 0.000000	 Cycle=   4	Pos=   4, hw=1.14500e+01, Dep=   5, Arr=   1, Dir=LD, Clt=2.77562e+02, Hc=   3
+ NowState :   Stat: 09.RCOB, NowState :   Stat: 10.RCOM, itv      : 2.542857	 Cycle=   4	Pos=   3, hw=7.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=2.80105e+02, Hc=   3
+ NowState :   Stat: 10.RCOM, NowState :   Stat: 05.RTSR, itv      : 2.542857	 Cycle=   4	Pos=   1, hw=2.55000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=2.82648e+02, Hc=   3
+ NowState :   Stat: 05.RTSR, NowState :   Stat: 11.RCOC, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=2.55000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=2.82648e+02, Hc=   3
+ NowState :   Stat: 11.RCOC, NowState :   Stat: 12.RSDB, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=2.55000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=2.82648e+02, Hc=   3
+ NowState :   Stat: 12.RSDB, NowState :   Stat: 13.RSDM, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=6.37500e-01, Dep=   5, Arr=   1, Dir=LD, Clt=2.82648e+02, Hc=   3
+ NowState :   Stat: 13.RSDM, NowState :   Stat: 14.RSDC, itv      : 3.400000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=2.86048e+02, Hc=   3
+ NowState :   Stat: 14.RSDC, NowState :   Stat: 15.RSTB, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=2.86048e+02, Hc=   3
+ NowState :   Stat: 15.RSTB, NowState :   Stat: 16.RSTM, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=2.86048e+02, Hc=   3
+ NowState :   Stat: 16.RSTM, NowState :   Stat: 17.DOPB, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=2.86048e+02, Hc=   3
+ NowState :   Stat: 17.DOPB, NowState :   Stat: 18.DOPM, itv      : 1.050000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=2.87098e+02, Hc=   3
+ NowState :   Stat: 18.DOPM, NowState :   Stat: 19.DOPC, itv      : 1.050000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=2.88148e+02, Hc=   3
+ NowState :   Stat: 19.DOPC, NowState :   Stat: 20.TOFP, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=2.88148e+02, Hc=   3
+ NowState :   Stat: 20.TOFP, NowState :   Stat: 21.TOFB, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=2.88148e+02, Hc=   3
+ NowState :   Stat: 21.TOFB, NowState :   Stat: 22.TOFM, itv      : 0.800000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=2.88948e+02, Hc=   2
+ NowState :   Stat: 22.TOFM, NowState :   Stat: 23.TOFC, itv      : 0.800000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=2.89748e+02, Hc=   1
+ NowState :   Stat: 23.TOFC, NowState :   Stat: 24.TONP, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=2.89748e+02, Hc=   1
+ NowState :   Stat: 24.TONP, NowState :   Stat: 25.TONB, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=2.89748e+02, Hc=   1
+ NowState :   Stat: 25.TONB, NowState :   Stat: 26.TONM, itv      : 2.400000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=2.92148e+02, Hc=   4
+ NowState :   Stat: 26.TONM, NowState :   Stat: 27.TONC, itv      : 3.200000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=2.95348e+02, Hc=   8
+ NowState :   Stat: 27.TONC, NowState :   Stat: 28.DCLB, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=2.95348e+02, Hc=   8
+ NowState :   Stat: 28.DCLB, NowState :   Stat: 29.DCLM, itv      : 1.850000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=2.97198e+02, Hc=   8
+ NowState :   Stat: 29.DCLM, NowState :   Stat: 30.DCLC, itv      : 1.850000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=2.99048e+02, Hc=   8
+ NowState :   Stat: 30.DCLC, NowState :   Stat: 31.RSTC, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=2.99048e+02, Hc=   8
+ NowState :   Stat: 31.RSTC, NowState :   Stat: 04.RTSC, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   5, Arr=   1, Dir=LD, Clt=2.99048e+02, Hc=   8
+ NowState :   Stat: 04.RTSC, NowState :   Stat: 06.RSUB, itv      : 0.000000	 Cycle=   4	Pos=   1, hw=0.00000e+00, Dep=   1, Arr=   5, Dir=LU, Clt=2.99048e+02, Hc=   8
+ NowState :   Stat: 06.RSUB, NowState :   Stat: 07.RSUM, itv      : 1.700000	 Cycle=   4	Pos=   1, hw=6.37500e-01, Dep=   1, Arr=   5, Dir=LU, Clt=3.00748e+02, Hc=   8
+EleLife SummarySimulation    2 Start !
+ PID--- CID- ToF TfF CLT---- CIT---- ToT---- TfT---- CWI---- TrT---- SvT---- SvS-----
+      1    2   5   1     2.1     2.1     4.2    56.4     2.1    52.3    54.4 09.SVCP
+      2    2   8   1     2.8     0.8    20.7    57.2    17.8    36.6    54.4 09.SVCP
+      3    2   1   6     3.5     0.6    59.6   104.4    56.2    44.8   100.9 09.SVCP
+      4    2   1   6     4.3     0.8    60.4   105.2    56.1    44.8   100.9 09.SVCP
+      5    2   6   1     9.6     5.3    35.9    58.8    26.3    22.9    49.2 09.SVCP
+      6    2   1   6    13.3     3.7    61.2   106.0    47.9    44.8    92.7 09.SVCP
+      7    2   8   1    14.7     1.4    21.5    58.0     6.8    36.6    43.3 09.SVCP
+      8    2   1   3    20.1     5.4    62.0    86.3    42.0    24.3    66.3 09.SVCP
+      9    2   1   3    28.2     8.1    62.8    87.1    34.7    24.3    59.0 09.SVCP
+     10    2   7   1    35.8     7.7   121.0   201.6    85.1    80.6   165.7 09.SVCP
+     11    2   1   9    41.7     5.9    63.6   136.3    21.9    72.6    94.5 09.SVCP
+     12    2   1   6    44.5     2.7    64.4   106.8    19.9    42.4    62.3 09.SVCP
+     13    2   7   1    47.4     2.9   121.8   202.4    74.4    80.6   155.0 09.SVCP
+     14    2   1   3    60.4    12.9    65.2    87.9     4.9    22.7    27.6 09.SVCP
+     15    2   1  10    67.2     6.8    71.8   150.4     4.6    78.6    83.2 09.SVCP
+     16    2   1   4    77.6    10.4   205.6   254.7   128.0    49.1   177.1 09.SVCP
+     17    2   1   5    97.2    19.6   206.4   268.9   109.1    62.5   171.6 09.SVCP
+     18    2   6   1   105.0     7.8   107.6   200.8     2.6    93.2    95.8 09.SVCP
+     19    2   9   1   129.6    24.6   137.1   203.2     7.5    66.1    73.6 09.SVCP
+     20    2   5   1   146.5    16.9   170.9   204.0    24.4    33.1    57.5 09.SVCP
+     21    2   2   1   174.8    28.3   187.4   204.8    12.7    17.4    30.0 09.SVCP
+     22    2   1   3   177.0     2.3   207.2   241.3    30.2    34.1    64.3 09.SVCP
+     23    0   9   1   196.3    19.3     0.0     0.0  -196.3     0.0  -196.3 03.SVCW
+     24    2   1  10   204.6     8.2   208.0     0.0     3.4  -208.0  -204.6 07.SVRM
+     25    2   1   2   207.5     2.9   214.6   227.9     7.1    13.4    20.5 09.SVCP
+     26    2   4   1   224.5    17.0   255.5   288.1    31.0    32.7    63.7 09.SVCP
+     27    2   1   9   226.6     2.1   289.7     0.0    63.2  -289.7  -226.6 07.SVRM
+     28    2   5   1   228.1     1.5   269.7   288.9    41.6    19.3    60.9 09.SVCP
+     29    2   1   5   234.0     5.9   290.5     0.0    56.6  -290.5  -234.0 07.SVRM
+     30    0   7   1   242.7     8.7     0.0     0.0  -242.7     0.0  -242.7 03.SVCW
+     31    0  10   1   248.4     5.8     0.0     0.0  -248.4     0.0  -248.4 03.SVCW
+     32    2   1   7   253.5     5.0   291.3     0.0    37.9  -291.3  -253.5 07.SVRM
+     33    2   1   8   260.4     7.0   292.1     0.0    31.7  -292.1  -260.4 07.SVRM
+     34    2   1   5   262.3     1.8   292.9     0.0    30.7  -292.9  -262.3 07.SVRM
+     35    2   1   5   271.7     9.4   293.7     0.0    22.1  -293.7  -271.7 07.SVRM
+     36    2   1   6   277.3     5.6   294.5     0.0    17.2  -294.5  -277.3 07.SVRM
+ PID--- CID- ToF TfF CLT---- CIT---- ToT---- TfT---- CWI---- TrT---- SvT---- SvS-----
+TotalCallWaitIntervalTimeSec= 894.83
+TotalTransitTimeSec=1129.42
+TotalBenefitServiceTimeSec=2024.26
+TotalCallWaitPassengers=    36
+TotalTakeOnPassengers=    33
+TotalServiceComplete=    25
+TotalLongWaitPassengers=     5
+EleLife SummarySimulation    2 End !
+Thread Destroied !
