@@ -1,5 +1,5 @@
 <?php
-include_once('./simulation_dat_conf.php');
+include_once(dirname(__FILE__).'/simulation_dat_conf.php');
     /****************
      定数定義
     *****************/
@@ -64,15 +64,35 @@ include_once('./simulation_dat_conf.php');
         /*******************************************
          logファイルのデータを読み出し
         ********************************************/
-        $lCt = 0;
         while (!feof($handle)) {
-            if($lCt < 100){
-                $buffer = fgets($handle);
-                echo $buffer;
-                $fileName   = $directory.'/'.'simulation_'.CREATE_DATE.'_'.$sequenceName.'.dat';
-                $str        = $buffer;
-                writeFile($fileName,$str);
-                $lCt++;
+            $tBuffer = fgets($handle);
+            $buffer[] = trim($tBuffer);
+            //階数等数えておく必要のあるものがあれば、ここでカウント
+        }
+
+        /*******************************************
+         simulation_datを書き出し
+        ********************************************/
+        //書き出しファイル名の設定
+        $fileName   = $directory.'/'.'simulation_'.CREATE_DATE.'_'.$sequenceName.'.dat';
+
+        $bufferCt = count($buffer);
+        $keys = array_keys($dat_conf);
+        $key = array_shift($keys);
+
+        for($iCt=0;$iCt < $bufferCt;$iCt++){
+            if(($iCt < 100 && DEBUG) || !DEBUG){
+                if($buffer[$iCt] == $key){
+                    $downLow = $dat_conf[$key]['downLow'];
+                    $str = $buffer[$iCt + $downLow];
+                    writeFile($fileName,$str);
+                    if(count($keys) > 0){
+writeLog('count($keys):'.count($keys),$sequenceName);
+                        $key = array_shift($keys);
+                    }else{
+                        break;
+                    }
+                }
             }
             else{
                 break;
