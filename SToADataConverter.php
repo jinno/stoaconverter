@@ -1,54 +1,101 @@
 <?php
+include_once('./simulation_dat_conf.php');
     /****************
-     Äê¿ôÄêµÁ
+     ’è”’è‹`
     *****************/
-    define( 'DEBUG' , true );                                   // ¥Ç¥Ð¥Ã¥°É½¼¨¤ÎÀÚ¤êÂØ¤¨   true/false
-    define( 'CREATE_DATE' , date('Ymd') );                      // ºîÀ®Ç¯·îÆü¤òÄê¿ô²½
-    define( 'CREATE_FOLDER_NAME' , 'Sample_'.CREATE_DATE.'_' ); // ¥³¥ó¥Ð¡¼¥È¸å¤Î¥Õ¥¡¥¤¥ë¤ò½ÐÎÏ¤¹¤ë¥Õ¥©¥ë¥ÀÌ¾¡Ê¤Î°ìÉô¡Ë
-    define( 'LOG_FOLDER_NAME' , 'log');                         // log¥Õ¥¡¥¤¥ë¤ò½ÐÎÏ¤¹¤ë¥Õ¥©¥ë¥ÀÌ¾
-    define( 'CREATE_LOG_NAME' , trim(basename(__FILE__), ".php").'_'.CREATE_DATE.'_' ); // log¥Õ¥¡¥¤¥ëÌ¾¡Ê¤Î°ìÉô¡Ë
+    define( 'DEBUG' , true );                                   // ƒfƒoƒbƒO•\Ž¦‚ÌØ‚è‘Ö‚¦   true/false
+    define( 'CREATE_DATE' , date('Ymd') );                      // ì¬”NŒŽ“ú‚ð’è”‰»
+    define( 'CREATE_FOLDER_NAME' , 'Sample_'.CREATE_DATE.'_' ); // ƒRƒ“ƒo[ƒgŒã‚Ìƒtƒ@ƒCƒ‹‚ðo—Í‚·‚éƒtƒHƒ‹ƒ_–¼i‚Ìˆê•”j
+    define( 'LOG_FOLDER_NAME' , './log');                       // logƒtƒ@ƒCƒ‹‚ðo—Í‚·‚éƒtƒHƒ‹ƒ_–¼
+    define( 'CREATE_LOG_NAME' , trim(basename(__FILE__), ".php").'_'.CREATE_DATE.'_' ); // logƒtƒ@ƒCƒ‹–¼i‚Ìˆê•”j
 
-    $convertCt = 1; // 1¤«¤é³«»Ï¤È¤¹¤ë
+    $convertCt = 1; // 1‚©‚çŠJŽn‚Æ‚·‚é
 
     /****************
-     headerÆÉ¤ß¹þ¤ß
+     header“Ç‚Ýž‚Ý
     *****************/
     loadConverterHeader();
-
-    /**************************************************************
-     Æ±Æü¤Ë¥³¥ó¥Ð¡¼¥È½èÍý¤¬¤µ¤ì¤Æ¤¤¤ë¤«¤òlog¥Õ¥¡¥¤¥ë¤ÎÍ­Ìµ¤ÇÈ½ÃÇ
-    ***************************************************************/
-    chdir(dirname(__FILE__));                   // ¥«¥ì¥ó¥È¥Ç¥£¥ì¥¯¥È¥ê¤ò¤³¤ÎPHP¥Õ¥¡¥¤¥ë¤Î¾ì½ê¤ËÊÑ¹¹
-    debug_print( 'getcwd:'.getcwd());           // ¥«¥ì¥ó¥È¥ï¡¼¥¯¥Ç¥£¥ì¥¯¥È¥ê¤ÎÉ½¼¨
-    $targetDir = LOG_FOLDER_NAME;               // log½ÐÎÏ¥Õ¥©¥ë¥ÀÌ¾¤ò¥»¥Ã¥È
-    checkAndMakeDir($targetDir, '0777', false); // ¤Ê¤±¤ì¤ÐºîÀ®
-    $lists = fileListInTragetDir($targetDir);   // ¥Õ¥¡¥¤¥ë°ìÍ÷¤ò¼èÆÀ
-    debug_print("$targetDir====================");
-    debug_print($lists);
-    debug_print("=======================");
-    // CREATE_LOG_NAME¤Ë¥Þ¥Ã¥Á¤¹¤ëlog¥Õ¥¡¥¤¥ë¿ô¤ò¿ô¤¨¤ë
-    $Ct = count($lists);
-    for($i=0;$i < $Ct;$i++){
-        if(preg_match('/^'.CREATE_LOG_NAME.'/', $lists[$i]) == 1){
-            if(!DEBUG){ // @DEBUG@ ¥Ç¥Ð¥Ã¥°É½¼¨Ãæ¤Ï¥·¡¼¥±¥ó¥¹¤Î¥«¥¦¥ó¥È¥¢¥Ã¥×¤ò¤·¤Ê¤¤
-                $convertCt++;
+    switch($argc)
+    {
+      case 1:
+        // ˆø”‚ª—^‚¦‚ç‚ê‚Ä‚¢‚È‚¢‚Æ‚«
+        echo "Žg—p•û–@: php.exe J:\git\stoaconverter\SToADataConverter.php ƒRƒ“ƒo[ƒgŒ³ƒtƒ@ƒCƒ‹ \n";
+        break;
+      case 2:
+        // ³í‚Éˆø”‚ª—^‚¦‚ç‚ê‚½‚Æ‚«
+        $orgFilePath = $argv[1];
+        /**************************************************************
+         “¯“ú‚ÉƒRƒ“ƒo[ƒgˆ—‚ª‚³‚ê‚Ä‚¢‚é‚©‚ðlogƒtƒ@ƒCƒ‹‚Ì—L–³‚Å”»’f
+        ***************************************************************/
+        chdir(dirname(__FILE__));                   // ƒJƒŒƒ“ƒgƒfƒBƒŒƒNƒgƒŠ‚ð‚±‚ÌPHPƒtƒ@ƒCƒ‹‚ÌêŠ‚É•ÏX
+        debug_print( 'ygetcwdz:'.getcwd());           // ƒJƒŒƒ“ƒgƒ[ƒNƒfƒBƒŒƒNƒgƒŠ‚Ì•\Ž¦
+        $targetDir = LOG_FOLDER_NAME;               // logo—ÍƒtƒHƒ‹ƒ_–¼‚ðƒZƒbƒg
+        checkAndMakeDir($targetDir, '0777', false); // ‚È‚¯‚ê‚Îì¬
+        $lists = fileListInTragetDir($targetDir);   // ƒtƒ@ƒCƒ‹ˆê——‚ðŽæ“¾
+        debug_print("$targetDir====================");
+        debug_print($lists);
+        debug_print("=======================");
+        // CREATE_LOG_NAME‚Éƒ}ƒbƒ`‚·‚élogƒtƒ@ƒCƒ‹”‚ð”‚¦‚é
+        $Ct = count($lists);
+        for($i=0;$i < $Ct;$i++){
+            if(preg_match('/^'.CREATE_LOG_NAME.'/', $lists[$i]) == 1){
+                if(!DEBUG){ // @DEBUG@ ƒfƒoƒbƒO•\Ž¦’†‚ÍƒV[ƒPƒ“ƒX‚ÌƒJƒEƒ“ƒgƒAƒbƒv‚ð‚µ‚È‚¢
+                    $convertCt++;
+                }
             }
         }
+        $sequenceName = str_pad($convertCt, 2, '0', STR_PAD_LEFT);
+        writeLog('ystart converterz',$sequenceName);
+        // ¡‰ñ‚Ìlogƒtƒ@ƒCƒ‹‚Ìì¬
+        writeLog($str,$sequenceName);
+
+        /*******************************************
+         ƒRƒ“ƒo[ƒgƒtƒ@ƒCƒ‹‚Ìo—ÍæƒtƒHƒ‹ƒ_‚Ìì¬
+        ********************************************/
+        $directory  = CREATE_FOLDER_NAME.$sequenceName;
+        checkAndMakeDir($directory);
+
+        /*******************************************
+         logƒtƒ@ƒCƒ‹‚ðƒI[ƒvƒ“
+        ********************************************/
+        $handle = fopen($orgFilePath, "r");
+        writeLog('yfile openz:'.$orgFilePath,$sequenceName);
+
+        /*******************************************
+         logƒtƒ@ƒCƒ‹‚Ìƒf[ƒ^‚ð“Ç‚Ýo‚µ
+        ********************************************/
+        $lCt = 0;
+        while (!feof($handle)) {
+            if($lCt < 100){
+                $buffer = fgets($handle);
+                echo $buffer;
+                $fileName   = $directory.'/'.'simulation_'.CREATE_DATE.'_'.$sequenceName.'.dat';
+                $str        = $buffer;
+                writeFile($fileName,$str);
+                $lCt++;
+            }
+            else{
+                break;
+            }
+        }
+
+        /*******************************************
+         logƒtƒ@ƒCƒ‹‚ðƒNƒ[ƒY
+        ********************************************/
+        fclose($handle);
+        writeLog('yfile closez:'.$orgFilePath,$sequenceName);
+
+
+        /*****************
+         footer“Ç‚Ýž‚Ý
+        ******************/
+        loadConverterFooter();
+        writeLog('yend   converterz',$sequenceName);
+        break;
+      default:
+        break;
     }
-    $sequenceName = str_pad($convertCt, 2, '0', STR_PAD_LEFT);
-    // º£²ó¤Îlog¥Õ¥¡¥¤¥ë¤ÎºîÀ®
-    writeLog($str,$sequenceName);
 
-    /*******************************************
-     ¥³¥ó¥Ð¡¼¥È¥Õ¥¡¥¤¥ë¤Î½ÐÎÏÀè¥Õ¥©¥ë¥À¤ÎºîÀ®
-    ********************************************/
-    $directory  = CREATE_FOLDER_NAME.$sequenceName;
-    checkAndMakeDir($directory);
-
-    /*****************
-     footerÆÉ¤ß¹þ¤ß
-    ******************/
-    loadConverterFooter();
     exit;
 
 //===============================================
@@ -57,7 +104,7 @@
 function checkAndMakeDir($dirName, $parm='0777', $writeLog=true){
     if (!file_exists($dirName)) {
         mkdir($dirName, $parm, true);
-        $str = "create directory-->$dirName:$parm";
+        $str = "ycreate directoryz:$dirName:$parm";
         debug_print($str);
         if ($writeLog) {
             writeLog($str,substr($dirName, -2));
@@ -69,7 +116,7 @@ function fileListInTragetDir($dirName){
     $drc = dir( $dirName );
     while( $fl = $drc->read() ){
         if( $fl == '.' OR $fl == '..' ){ continue; }
-        # files¤ËÄÉ²Ã
+        # files‚É’Ç‰Á
         $files[]    = $fl;
     }
     return $files;
@@ -77,11 +124,19 @@ function fileListInTragetDir($dirName){
 
 function writeLog($str,$convertCt){
     $str = trim($str);
-    // ¥Õ¥¡¥¤¥ëºîÀ®¤Î°Ù¤Ëfopen¤Ï¹Ô¤¦
-    $handle = fopen(LOG_FOLDER_NAME.'/'.CREATE_LOG_NAME.$convertCt.'.log', "a");
+    $fileName = LOG_FOLDER_NAME.'/'.CREATE_LOG_NAME.$convertCt.'.log';
+    $date = date('Y-m-d h:i:s');
+    $str = $date." ".$str;
+    writeFile($fileName,$str);
+}
+
+function writeFile($fileName,$str){
+    $str = trim($str);
+    // ƒtƒ@ƒCƒ‹ì¬‚Ìˆ×‚Éfopen‚Ís‚¤
+    $handle = fopen($fileName, "a");
     if(strlen($str) > 0){
-        $date = date('Y-m-d h:i:s');
-        $str = $date." ".$str."\r\n";
+        $str = $str."\r\n";
+        debug_print($str);
         fwrite($handle, $str);
     }
     fclose($handle);
@@ -115,22 +170,3 @@ function debug_print($str){
         print_r($str);echo "\n";
     }
 }
-
-
-function _exec($cmd) 
-{ 
-   $WshShell = new COM("WScript.Shell"); 
-   $cwd = getcwd(); 
-   if (strpos($cwd,' ')) 
-   {  if ($pos = strpos($cmd, ' ')) 
-      {  $cmd = substr($cmd, 0, $pos) . '" ' . substr($cmd, $pos); 
-      } 
-      else 
-      {  $cmd .= '"'; 
-      } 
-      $cwd = '"' . $cwd; 
-   }   
-   $oExec = $WshShell->Run("cmd /C \" $cwd\\$cmd\"", 0,true); 
-   
-   return $oExec == 0 ? true : false; 
-} 
