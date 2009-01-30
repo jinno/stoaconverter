@@ -67,7 +67,7 @@ include_once(dirname(__FILE__).'/simulation_dat_conf.php');
         while (!feof($handle)) {
             $tBuffer = fgets($handle);
             $buffer[] = trim($tBuffer);
-            //階数等数えておく必要のあるものがあれば、ここでカウント
+            //数えておく必要のあるものがあれば、ここでカウント
         }
 
         /*******************************************
@@ -79,16 +79,41 @@ include_once(dirname(__FILE__).'/simulation_dat_conf.php');
         $bufferCt = count($buffer);
         $keys = array_keys($dat_conf);
         $key = array_shift($keys);
+        $floorNum = 1;
+        $isAnyFloor = false;
 
         for($iCt=0;$iCt < $bufferCt;$iCt++){
-            if(($iCt < 100 && DEBUG) || !DEBUG){
+            if(($iCt < 200 && DEBUG) || !DEBUG){
                 if($buffer[$iCt] == $key){
-                    $downLow = $dat_conf[$key]['downLow'];
-                    $str = $buffer[$iCt + $downLow];
-                    writeFile($fileName,$str);
+writeLog('【$key】:'.$key,$sequenceName);
+                    $downLow    = $dat_conf[$key]['downLow'];                           //データのある行を確認
+writeLog('【$downLow】:'.$downLow,$sequenceName);
+                    $isAnyFloor = isset($dat_conf[$key]['isAnyFloor']) ? true : false;  //階数分のデータがあるのか確認
+
+if($isAnyFloor) writeLog('【$isAnyFloor】:'.$isAnyFloor,$sequenceName);
+
+                    for($floorCt=0;$floorCt < $floorNum;$floorCt++){
+                        if(!$isAnyFloor && $floorCt > 0) break;
+                        $str = $buffer[$iCt + $downLow + $floorCt]; //データの取得
+writeLog('thisLoopBuffor:'.$str,$sequenceName);
+                                                                    //データを加工する
+                        $tmpData[] = $str;
+                    }
+
+                    $str = join(', ', $tmpData);
+                    unset($tmpData);
+                    writeFile($fileName,$str);                  //ファイルに書き出し
+
+                    if($key == FLOOR_NUM_KEY){
+                        $str = trim($str,'データ取得成功：');
+                        $str = trim($str);
+                        $floorNum = intVal($str);       //階数を取得
+writeLog('■$floorNum:'.$floorNum,$sequenceName);
+                    }
+
                     if(count($keys) > 0){
-writeLog('count($keys):'.count($keys),$sequenceName);
                         $key = array_shift($keys);
+                        $isAnyFloor = false;
                     }else{
                         break;
                     }
@@ -111,6 +136,7 @@ writeLog('count($keys):'.count($keys),$sequenceName);
         ******************/
         loadConverterFooter();
         writeLog('【end   converter】',$sequenceName);
+        writeLog('--------------------------------------------------------------------------------------------------------------------------------',$sequenceName,false);
         break;
       default:
         break;
@@ -142,10 +168,10 @@ function fileListInTragetDir($dirName){
     return $files;
 }
 
-function writeLog($str,$convertCt){
+function writeLog($str,$convertCt,$dateWrite=true){
     $str = trim($str);
     $fileName = LOG_FOLDER_NAME.'/'.CREATE_LOG_NAME.$convertCt.'.log';
-    $date = date('Y-m-d h:i:s');
+    $date = ($dateWrite == true) ? date('Y-m-d h:i:s') : '';
     $str = $date." ".$str;
     writeFile($fileName,$str);
 }
@@ -187,6 +213,7 @@ _DOC_;
 
 function debug_print($str){
     if (DEBUG) {
-        print_r($str);echo "\n";
+//        print_r($str);echo "\n";
+        var_dump($str);echo "\n";
     }
 }

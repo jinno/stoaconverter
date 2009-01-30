@@ -1,1 +1,0 @@
-php.exe -f J:\SToADataConverter\SToADataConverter.php
