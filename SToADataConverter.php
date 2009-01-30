@@ -71,6 +71,12 @@ include_once(dirname(__FILE__).'/simulation_dat_conf.php');
         }
 
         /*******************************************
+         logファイルをクローズ
+        ********************************************/
+        fclose($handle);
+        writeLog('【file close】:'.$orgFilePath,$sequenceName);
+
+        /*******************************************
          simulation_datを書き出し
         ********************************************/
         //書き出しファイル名の設定
@@ -96,20 +102,29 @@ if($isAnyFloor) writeLog('【$isAnyFloor】:'.$isAnyFloor,$sequenceName);
                         if(!$isAnyFloor && $floorCt > 0) break;
                         $str = $buffer[$iCt + $downLow + $floorCt]; //データの取得
 writeLog('thisLoopBuffor:'.$str,$sequenceName);
+                        $pat = '/('.$dat_conf[$key]['pattern'].')/';
+writeLog('$pat:'.$pat,$sequenceName);
+                        //$str = preg_replace($pat, \1, $str);
+                        preg_match($pat, $str, $match);
+                        array_shift($match);
+                        $str = join(', ', $match);
+writeLog('replaced:'.$str,$sequenceName);
+
+                        if($key == FLOOR_NUM_KEY){
+                            $str = trim($str,'データ取得成功：');
+                            $str = trim($str);
+                            $floorNum = intVal($str);       //階数を取得
+writeLog('■$floorNum:'.$floorNum,$sequenceName);
+                        }
                                                                     //データを加工する
                         $tmpData[] = $str;
                     }
 
-                    $str = join(', ', $tmpData);
+                    $str = str_pad($dat_conf[$key]['name'], 20, ' ')
+                         . str_pad(join(', ', $tmpData)   , 15, ' ')
+                         . $dat_conf[$key]['descript'];
                     unset($tmpData);
                     writeFile($fileName,$str);                  //ファイルに書き出し
-
-                    if($key == FLOOR_NUM_KEY){
-                        $str = trim($str,'データ取得成功：');
-                        $str = trim($str);
-                        $floorNum = intVal($str);       //階数を取得
-writeLog('■$floorNum:'.$floorNum,$sequenceName);
-                    }
 
                     if(count($keys) > 0){
                         $key = array_shift($keys);
@@ -125,11 +140,22 @@ writeLog('■$floorNum:'.$floorNum,$sequenceName);
         }
 
         /*******************************************
-         logファイルをクローズ
+         eventLogを書き出し
         ********************************************/
-        fclose($handle);
-        writeLog('【file close】:'.$orgFilePath,$sequenceName);
+        $div = 1;
+        //書き出しファイル名の設定
+        $fileName   = $directory.'/'.'eventlog_'.CREATE_DATE.'_'.$sequenceName.'_'.$div.'.csv';
 
+        $startStr   = '';
+        $endStr     = '';
+
+        for($iCt=0;$iCt < $bufferCt;$iCt++){
+            if($buffer[$iCt] == $startStr) continue;
+//writeLog('【$key】:'.$key,$sequenceName);
+                $str = $buffer[$iCt + $downLow + $floorCt]; //データの取得
+                                                            //データを加工する
+                writeFile($fileName,$str);                  //ファイルに書き出し
+        }
 
         /*****************
          footer読み込み
@@ -213,7 +239,12 @@ _DOC_;
 
 function debug_print($str){
     if (DEBUG) {
-//        print_r($str);echo "\n";
-        var_dump($str);echo "\n";
+        print_r($str);echo "\n";
+//        var_dump($str);echo "\n";
     }
+}
+
+function getPatternMatchData($pat,$sorce){
+    $ret = preg_replace('/^('.$pat.')/', "$0", $sorce);
+    return $ret;
 }
