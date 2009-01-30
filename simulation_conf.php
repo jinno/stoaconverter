@@ -1,4 +1,4 @@
-<?
+<?php
 $dat_conf['・シミュレーション時間']['name']             = 'TransitTime:';
 $dat_conf['・シミュレーション時間']['descript']         = '//シミュレーション時間';
 $dat_conf['・シミュレーション時間']['downLow']          = 1;
@@ -94,3 +94,4 @@ $dat_conf['・かごデータ(乗車定員)']['descript']         = '//乗車定員';
 $dat_conf['・かごデータ(乗車定員)']['downLow']          = 1;
 $dat_conf['・かごデータ(乗車定員)']['pattern']          = '[0-9\.]+$';
 
+?>

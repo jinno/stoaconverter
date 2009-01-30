@@ -3,11 +3,14 @@
 とりあえずバラバラのループでデータを取得
 最終的に同じバッファループ内でデータ取得を切り替えられるように直す
 */
-include_once(dirname(__FILE__).'/simulation_conf.php');
+//include_once(dirname(__FILE__).'/simulation_conf.php');
+include(dirname(__FILE__).'/simulation_conf.php');
+
     /****************
      定数定義
     *****************/
-    define( 'DEBUG' , true );                                   // デバッグ表示の切り替え   true/false
+//    define( 'DEBUG' , true );                                   // デバッグ表示の切り替え   true/false
+    define( 'DEBUG' , false );                                   // デバッグ表示の切り替え   true/false
     define( 'CREATE_DATE' , date('Ymd') );                      // 作成年月日を定数化
     define( 'CREATE_FOLDER_NAME' , 'Sample_'.CREATE_DATE.'_' ); // コンバート後のファイルを出力するフォルダ名（の一部）
     define( 'LOG_FOLDER_NAME' , './log');                       // logファイルを出力するフォルダ名
@@ -64,6 +67,7 @@ include_once(dirname(__FILE__).'/simulation_conf.php');
         ********************************************/
         $handle = fopen($orgFilePath, "r");
         writeLog('【file open】:'.$orgFilePath,$sequenceName);
+        print_r('【file open】:'.$orgFilePath);echo "\n";
 
         /*******************************************
          logファイルのデータを読み出し
@@ -73,17 +77,20 @@ include_once(dirname(__FILE__).'/simulation_conf.php');
             $buffer[] = trim($tBuffer);
             //数えておく必要のあるものがあれば、ここでカウント
         }
+        print_r('【file reading】:'.$orgFilePath);echo "\n";
 
         /*******************************************
          logファイルをクローズ
         ********************************************/
         fclose($handle);
         writeLog('【file close】:'.$orgFilePath,$sequenceName);
+        print_r('【file close】:'.$orgFilePath);echo "\n";
 
         /*******************************************
          simulation_datを書き出し
         ********************************************/
-writeLog('simulation_dat start!!!',$sequenceName);
+        writeLog('simulation_dat start!!!',$sequenceName);
+        print_r('simulation_dat start!!!');echo "\n";
         //書き出しファイル名の設定
         $fileName   = $directory.'/'.'simulation_'.CREATE_DATE.'_'.$sequenceName.'.dat';
 
@@ -96,30 +103,30 @@ writeLog('simulation_dat start!!!',$sequenceName);
         for($iCt=0;$iCt < $bufferCt;$iCt++){
             if(($iCt < 200 && DEBUG) || !DEBUG){
                 if($buffer[$iCt] == $key){
-//writeLog('【$key】:'.$key,$sequenceName);
+                    writeLog('【$key】:'.$key,$sequenceName);
                     $downLow    = $dat_conf[$key]['downLow'];                           //データのある行を確認
-//writeLog('【$downLow】:'.$downLow,$sequenceName);
+                    writeLog('【$downLow】:'.$downLow,$sequenceName);
                     $isAnyFloor = isset($dat_conf[$key]['isAnyFloor']) ? true : false;  //階数分のデータがあるのか確認
 
-//if($isAnyFloor) writeLog('【$isAnyFloor】:'.$isAnyFloor,$sequenceName);
+                    if($isAnyFloor) writeLog('【$isAnyFloor】:'.$isAnyFloor,$sequenceName);
 
                     for($floorCt=0;$floorCt < $floorNum;$floorCt++){
                         if(!$isAnyFloor && $floorCt > 0) break;
                         $str = $buffer[$iCt + $downLow + $floorCt]; //データの取得
-//writeLog('thisLoopBuffor:'.$str,$sequenceName);
+                        writeLog('thisLoopBuffor:'.$str,$sequenceName);
                         $pat = '/('.$dat_conf[$key]['pattern'].')/';
-//writeLog('$pat:'.$pat,$sequenceName);
+                        writeLog('$pat:'.$pat,$sequenceName);
                         //$str = preg_replace($pat, \1, $str);
                         preg_match($pat, $str, $match);
                         array_shift($match);
                         $str = join(', ', $match);
-//writeLog('replaced:'.$str,$sequenceName);
+                        writeLog('replaced:'.$str,$sequenceName);
 
                         if($key == FLOOR_NUM_KEY){
                             $str = trim($str,'データ取得成功：');
                             $str = trim($str);
                             $floorNum = intVal($str);       //階数を取得
-//writeLog('■$floorNum:'.$floorNum,$sequenceName);
+                            writeLog('■$floorNum:'.$floorNum,$sequenceName);
                         }
                                                                     //データを加工する
                         $tmpData[] = $str;
@@ -143,12 +150,14 @@ writeLog('simulation_dat start!!!',$sequenceName);
                 break;
             }
         }
-writeLog('simulation_dat end!!!',$sequenceName);
+        writeLog('simulation_dat end!!!',$sequenceName);
+        print_r('simulation_dat end!!!');echo "\n";
 
         /*******************************************
          eventLogを書き出し
         ********************************************/
-writeLog('eventLog stert!!!',$sequenceName);
+        writeLog('eventLog stert!!!',$sequenceName);
+        print_r('eventLog stert!!!');echo "\n";
         $div = 1;
         //書き出しファイル名の設定
         $eventLogFileName[1]   = $directory.'/'.'eventlog_'.CREATE_DATE.'_'.$sequenceName.'_1.csv';
@@ -162,23 +171,23 @@ writeLog('eventLog stert!!!',$sequenceName);
 
         //headerの設定
         $header     = 'Now----, Next---, Cage, LocalTime--, Pos, hw---------, Dep, Arr, SD, Clt--------, Ton, Tof, Hc-';
-$mCt = 0;
+        // 書き出しループ開始
         for($iCt=0;$iCt < $bufferCt;$iCt++){
             if(preg_match('/'.$endStr.'/', $buffer[$iCt]) == 1){  //終了文字列行にマッチしたら
                 $startFinded = false;   //開始文字列行発見フラグをfalse
                 $headerWritn = false;   //ヘッダ行を書き出し完了フラグをFalse
                 $div++;
-writeLog('■■MATCH！■■',$sequenceName);
-writeLog('eventLog pat:/'.$endStr.'/',$sequenceName);
-writeLog("eventLog buffer[$iCt]:".$buffer[$iCt],$sequenceName);
+                writeLog('■■MATCH！■■',$sequenceName);
+                writeLog('eventLog pat:/'.$endStr.'/',$sequenceName);
+                writeLog("eventLog buffer[$iCt]:".$buffer[$iCt],$sequenceName);
                 continue;
             }
 
             if(preg_match('/'.$startStr.'/', $buffer[$iCt]) == 1) {
                 $startFinded = true;
-writeLog('■■MATCH！■■',$sequenceName);
-writeLog('eventLog pat:/'.$startStr.'/',$sequenceName);
-writeLog("eventLog buffer[$iCt]:".$buffer[$iCt],$sequenceName);
+                writeLog('■■MATCH！■■',$sequenceName);
+                writeLog('eventLog pat:/'.$startStr.'/',$sequenceName);
+                writeLog("eventLog buffer[$iCt]:".$buffer[$iCt],$sequenceName);
                 continue;
             }
             //開始文字列行にマッチしたら開始文字列行発見フラグをtrue
@@ -186,11 +195,11 @@ writeLog("eventLog buffer[$iCt]:".$buffer[$iCt],$sequenceName);
             if($startFinded == true){           //開始文字列行がtrueなら
                 if($headerWritn == false){          //ヘッダ行を書き出し完了フラグがfalseなら
                     $headerWritn    = true;             //ヘッダ行を書き出し完了フラグをtrue
-writeLog("eventLogFileName[$div]:".$eventLogFileName[$div],$sequenceName);
+                    writeLog("eventLogFileName[$div]:".$eventLogFileName[$div],$sequenceName);
                     writeFile($eventLogFileName[$div],$header); //headerの書き出し
                 }
             }
-writeLog('【$key】:'.$key,$sequenceName);
+
             $str = $buffer[$iCt]; //データの取得
             //データを加工する
             // matchでデータを取得
@@ -198,8 +207,8 @@ writeLog('【$key】:'.$key,$sequenceName);
             //Now, Next,       itv,          Cycle, Pos, hw, Dep, Arr, Dir, Clt,           Hc
             $eventPat = '/^[^\d]+(\d+\.[A-Z]{4})[^\d]+(\d+\.[A-Z]{4})[^\d]+([0-9\.]+)[^\d]+([0-9\.]+)[^\d]+([0-9\.]+)[^\d]+([0-9\.e\+\-]+)[^\d]+(\d+)[^\d]+(\d+)[^\d]*Dir=([A-Z\-]{2})[^\d]+([0-9\.e\+\-]+)[^\d]+(\d+)/';
             preg_match($eventPat, $str, $match);
-writeLog('$eventPat:'.$eventPat,$sequenceName);
-writeLog('$str:'.$str,$sequenceName);
+            writeLog('$eventPat:'.$eventPat,$sequenceName);
+            writeLog('$str:'.$str,$sequenceName);
             array_shift($match);
             //乗降人数の算出(乗降のタイミングは必ずずれるのでどちらかのみ)
             $ton = 0;//乗車
@@ -230,16 +239,54 @@ writeLog('$str:'.$str,$sequenceName);
             $sortedEventData[12]    = str_pad($match[10], 3, ' ' ,STR_PAD_LEFT);//Hc
             // カンマで連結
             $str = join(', ', $sortedEventData);
-writeLog('sortedEventData（'.$iCt.'）:'.$str,$sequenceName);
-
-//if($mCt > 10) {
-//    break;
-//}
-//$mCt++;
+            writeLog('sortedEventData（'.$iCt.'）:'.$str,$sequenceName);
 
             writeFile($eventLogFileName[$div],$str);                  //ファイルに書き出し
         }
-writeLog('eventLog end!!!',$sequenceName);
+        writeLog('eventLog end!!!',$sequenceName);
+        print_r('eventLog end!!!');echo "\n";
+
+        /*******************************************
+         cageCallを書き出し
+        ********************************************/
+        writeLog('cageCall stert!!!',$sequenceName);
+        print_r('cageCall stert!!!');echo "\n";
+        $div = 1;
+        //書き出しファイル名の設定
+        $cagecallFileName[1]   = $directory.'/'.'cagecall_'.CREATE_DATE.'_'.$sequenceName.'_1.csv';
+        $cagecallFileName[2]   = $directory.'/'.'cagecall_'.CREATE_DATE.'_'.$sequenceName.'_2.csv';
+
+        $startStr       = 'EleLife SummarySimulation\s*\d\s*Start';
+        $endStr         = 'TotalCallWaitIntervalTimeSec';
+        $startFinded    = false;
+        $headerWritn    = false;
+
+        for($iCt=0;$iCt < $bufferCt;$iCt++){
+            if(preg_match('/'.$endStr.'/', $buffer[$iCt + 1]) == 1){  //終了文字列行にマッチしたら
+                $startFinded = false;   //開始文字列行発見フラグをfalse
+                $div++;
+                writeLog('■MATCH！endStr',$sequenceName);
+                writeLog('cageCall pat:/'.$endStr.'/',$sequenceName);
+                writeLog("cageCall buffer[$iCt]:".$buffer[$iCt],$sequenceName);
+                continue;
+            }
+
+            if(preg_match('/'.$startStr.'/', $buffer[$iCt]) == 1) {
+                $startFinded = true;
+                writeLog('■MATCH！StertStr',$sequenceName);
+                writeLog('cageCall pat:/'.$startStr.'/',$sequenceName);
+                writeLog("cageCall buffer[$iCt]:".$buffer[$iCt],$sequenceName);
+                continue;
+            }
+            //開始文字列行にマッチしたら開始文字列行発見フラグをtrue
+            if($startFinded != true) continue;  //開始文字列行がfalseなら、コンティニュー
+            $str = $buffer[$iCt]; //データの取得
+            //データの加工
+            $str = str_pad($str, 95, ' ' ,STR_PAD_LEFT);
+            writeFile($cagecallFileName[$div],$str);                  //ファイルに書き出し
+        }
+        writeLog('cageCall end!!!',$sequenceName);
+        print_r('cageCall end!!!');echo "\n";
 
         /*****************
          footer読み込み
@@ -272,7 +319,7 @@ function fileListInTragetDir($dirName){
     $drc = dir( $dirName );
     while( $fl = $drc->read() ){
         if( $fl == '.' OR $fl == '..' ){ continue; }
-        # filesに追加
+        // filesに追加
         $files[]    = $fl;
     }
     return $files;
@@ -287,10 +334,11 @@ function writeLog($str,$convertCt,$dateWrite=true){
 }
 
 function writeFile($fileName,$str){
-    $str = trim($str);
+    $len = trim($str);
+    //$str = trim($str);
     // ファイル作成の為にfopenは行う
     $handle = fopen($fileName, "a");
-    if(strlen($str) > 0){
+    if(strlen($len) > 0){
         $str = $str."\r\n";
         debug_print($str);
         fwrite($handle, $str);
